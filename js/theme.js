@@ -1,5 +1,5 @@
 /*
- Theme Name: Atlantida - Creative Multipurpose HTML5 Template 
+ Theme Name: Atlantida - Creative Multipurpose HTML5 Template
  Theme URL: http://themewar.com/html/atlantida
  Author: ThemeWar
  Author URI: http://themewar.com
@@ -31,10 +31,10 @@
  [19] Wow Js
  [20] load portfolio
  [21] Contact Submit
- [22] Loader 
- [23] search icon 
+ [22] Loader
+ [23] search icon
  [24] Back To Top
- 
+
  ==========================================================================*/
 
 (function ($) {
@@ -540,7 +540,7 @@
     ;
 
     //========================
-    // Loader 
+    // Loader
     //========================
     $(window).load(function () {
         if ($('.preloader').length > 0) {
@@ -677,3 +677,25 @@ $(document).ready(function () {
 			}
 		}); /*ready*/
 	});
+
+/*smooth scroll*/
+
+$(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        }
+    });
+});
+
+
+/*
+client logo slider*/
+

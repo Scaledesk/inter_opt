@@ -26,13 +26,13 @@
         <!--[if lt IE 9]>
             <script src="js/html5shiv.js"></script>
             <script src="js/respond.min.js"></script>
-        <![endif]--> 
+        <![endif]-->
 
         <!-- Favicon Icon -->
         <link rel="icon"  type="image/png" href="images/favicon.png">
         <!-- Favicon Icon -->
     </head>
-    
+
     <body>
         <!-- preloader -->
         <div class="preloader">
@@ -53,7 +53,7 @@
                     <div class="row">
                         <div class="col-lg-3 col-sm-1 col-md-3">
                             <div class="logo">
-                                <a href="#"><img src="images/logo.png" alt=""></a>
+                                <a href="#"><img src="images/logo.png" alt="logo"></a>
                             </div>
                         </div>
                         <div class="col-lg-9 col-sm-11 col-md-9">
@@ -67,11 +67,12 @@
                                 <!-- End mobileMenu -->
                                 <ul>
                                     <li><a href="#">Home</a></li>
-																	  <li><a href="#">About</a></li>
-																	  <li><a href="#">Services</a></li>
-																	  <li><a href="#">Portfolio</a></li>
-                                    <li><a href="#">Contact</a></li>                                    
-																	  <li><a href="#" class="nav-phone">+91 9717533553</a></li>
+																	  <li><a href="#about">About</a></li>
+                                    <li><a href="#portfolio">Portfolio</a></li>
+                                    <li><a href="#services">Services</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+																	  <li><a href="#" class="nav-phone hidden-xs">+91 9717533553</a></li>
+                                    <li><a href="tel:09717533553" class="visible-xs">+91 9717533553</a></li>
 																	  <li><a href="#" class="nav-btn" data-toggle="modal" data-target="#myModal">Inquire Now</a></li>
                                     <!--<li> <button type="button" class="btn nav-btn " data-toggle="modal" data-target="#myModal">Open Modal</button></li>-->
 
@@ -84,7 +85,7 @@
             </div>
         </header>
         <!--Header End-->
-        
+
         <!--REVOLUTION SLIDER start-->
         <div class="section full-height" id="home">
 					<div id="rev_slider_626_1_wrapper" class="rev_slider_wrapper fullscreen-container fade-elements" data-alias="focus-parallax" style="background-color:transparent;padding:0px;">
@@ -94,11 +95,11 @@
 								<!-- SLIDE  -->
 								<li data-index="rs-1895" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Focus" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 									<!-- MAIN IMAGE -->
-									<img src="images/slider/2.jpg" style='background-color:transparent' alt="" data-lazyload="images/slider/2.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+									<img src="images/slider/2.jpg" style='background-color:transparent' alt="slider" data-lazyload="images/slider/2.jpg" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
 									<!-- LAYERS -->
 
 									<!-- LAYER NR. 1 -->
-									<div class="tp-caption tp-resizeme first-layer" data-x="['left','left','center','center']" data-hoffset="[-105','-26','-26','-140']" data-y="['top','top','top','top']" data-voffset="['280','389','60','0']" data-width="none" data-height="none" data-whitespace="wrap" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:1000;e:Power4.easeOut;" data-transform_out="auto:auto;s:700;e:Power2.easeInOut;" data-start="1550" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 17;"> 
+									<div class="tp-caption tp-resizeme first-layer" data-x="['left','left','center','center']" data-hoffset="[-105','-26','-26','-140']" data-y="['top','top','top','top']" data-voffset="['280','389','60','0']" data-width="none" data-height="none" data-whitespace="wrap" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:1000;e:Power4.easeOut;" data-transform_out="auto:auto;s:700;e:Power2.easeInOut;" data-start="1550" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 17;">
 										<div class="sl1Con header-boxed">
 											<h2>12 Years <br>
 											200 Projects <br>
@@ -106,7 +107,7 @@
 											10 States
 											</h2>
 											<p class="margin-0">“The art of Interior Design for Professionals” <br>Offering the best in design since 2004</p>
-										</div> 
+										</div>
 									</div>
 
 									<!-- LAYER NR. 2 -->
@@ -116,19 +117,19 @@
 												<h3>Get Free Quotation</h3>
 												<form action="#" method="post" id="contactForm">
 														<div class="col-sm-12 commonfield uncommon">
-																<input name="name" type="text" class="required" id="name" placeholder="Full Name">
+																<input name="name" type="text" class="required custom-lineheight" id="name" placeholder="Full Name">
 														</div>
 														<div class="col-sm-12 commonfield uncommon">
-																<input name="email" type="text" class="required" id="email" placeholder="Email Id">
+																<input name="email" type="text" class="required custom-lineheight" id="email" placeholder="Email Id">
 														</div>
 														<div class="col-sm-12 commonfield uncommon">
-																<input name="number" type="text" class="required" id="phone" placeholder="Phone Number">
+																<input name="number" type="text" class="required custom-lineheight" id="phone" placeholder="Phone Number">
 														</div>
 														<div class="col-sm-12 commonfield uncommon textAreaField">
-																<input name="message" type="text" class="required" id="message" placeholder="Your Requirements">
+																<input name="message" type="text" class="required custom-lineheight" id="message" placeholder="Your Requirements">
 														</div>
 														<div class="col-sm-12 commonfield uncommon textAreaField">
-																<button id="con_submit" type="submit">Send Message</button>
+																<button id="con_submit" type="submit custom-lineheight">Send Message</button>
 														</div>
 												</form>
 											</div>
@@ -140,8 +141,8 @@
 								<!-- SLIDE  -->
 								<li data-index="rs-1896" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Perspective" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 									<!-- MAIN IMAGE -->
-									<img src="images/slider/4.png" style='background-color:transparent' alt="" data-lazyload="images/slider/4.png" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
-									<!-- LAYERS -->								
+									<img src="images/slider/4.png" style='background-color:transparent' alt="slider" data-lazyload="images/slider/4.png" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+									<!-- LAYERS -->
 								</li>
 								<!-- SLIDE  -->
 							</ul>
@@ -156,48 +157,48 @@
 
 
 
-        <section class="commonSection ourSkills-main aright">
+        <section class="commonSection ourSkills-main aright" id="about">
             <div class="container">
                 <div class="row flex-box-middle flex-box-right">
                     <div class="col-md-6 col-sm-12 col-xs-12">
                         <div class="weAreCon">
                             <h3>10 years on the global market. <br>
      												We work since 2005.</h3>
-                            <p class="we_pmargin">We possess within us two minds. So far I have written only of the conscious mind. I would now like to introduce you to your second mind. Our subconscious mind contains such power and complexity that it literally staggers the imagination. In order to understand how the conscious and subconscious minds work together as a team to create your reality, let me again use an analogy.</p>
+                            <p class="we_pmargin">Interior Options offers premium design services for corporate and commercial spaces. The services are rendered by our professionals who excel at commercial interior design services using the latest techniques of planning, designing and furnishing the commercial spaces. Our industry clients are provided all the premium design services by our experienced commercial interior decorators at the best prices in the industry.</p>
                             <p>We follow a simple five-step approach to blend in client’s requirement with our expert designer’s touch to give your space the bets makeover. Our experts hold the knack of understanding the client’s requirements especially in case of commercial interior design and lead the creative team accordingly.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12 col-xs-12">
                         <div class="ourSkills-imgs">
-                            <img class="img-responsive" src="images/who-we-are-img.png">
+                            <img class="img-responsive" alt="who we are" src="images/who-we-are-img.png" alt="who we are">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!--Who We Are End-->
-        
+
         <!--Service start-->
         <section class="commonSection ServiceSection">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-sm-12 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
                         <div class="iconBox_01 text-center serv1">
-                            <img src="images/icons/s6.png">
+                            <img src="images/icons/s6.png" alt="Impeccable services">
                             <h3>Impeccable Services</h3>
                             <p>We offer services that are highly commended by our patrons. Our company focuses on client satisfaction and our team of designers strive to meet your expectations. The entire process of creative design is carried out by commercial designers who are thoroughly experienced in the domain of commercial interior designing. </p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-12 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="350ms">
                         <div class="iconBox_01 text-center serv1">
-                            <img src="images/icons/s5.png">
+                            <img src="images/icons/s5.png" alt="Expertise and Experience">
                             <h3>Expertise and Experience </h3>
                             <p>We bring you the designs that emanate from the collective skill and years of experience of our commercial interior designers. Our designs have been widely recognized by elite brands as well as the industry. We provide you nothing but the best to get a wow each time from our clients. </p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-12 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="400ms">
                         <div class="iconBox_01 text-center serv1">
-                            <img src="images/icons/s4.png">
+                            <img src="images/icons/s4.png"  alt="Versatility">
                             <h3>Versatility </h3>
                             <p>Versatility is our core strength. Whether it is a corporate or commercial interior designing project, we redefine our approach every time to provide you with a fresh design. Our team make every effort to give your space a unique makeover with a personalized touch. </p>
                         </div>
@@ -205,15 +206,15 @@
                     <div class="clearfix"></div>
                     <div class="col-lg-4 col-sm-12 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="450ms">
                         <div class="iconBox_01 text-center serv1">
-                            <img src="images/icons/s3.png">
-                            <h3>Innovative and top-notch designs</h3>
+                            <img src="images/icons/s3.png" alt="Innovative & top-notch designs">
+                            <h3>Innovative &amp; top-notch designs</h3>
                             <p>Our innovation coupled with the zeal of creating top-notch designs is what makes us different. This simple motto is what keeps our clients happy and make them come back for more. </p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-12 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="500ms">
                         <div class="iconBox_01 text-center serv1">
-                            <img src="images/icons/s2.png">
-                            <h3>Creative and passionate workforce</h3>
+                            <img src="images/icons/s2.png" alt="Creative &amp; passionate workforce">
+                            <h3>Creative &amp; passionate workforce</h3>
                             <p>We have some very talented, inventive, imaginative and experienced individuals who work as a team in accordance with the requirement of the client. They have exposure of numerous successful projects and they simply excel at their work. We are ready to work for you anytime. </p>
                         </div>
                     </div>
@@ -228,7 +229,7 @@
         <!--Service end-->
 
         <!-- Latest Project start -->
-        <section class="commonSection latest_project">
+        <section class="commonSection latest_project" id="portfolio">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -242,7 +243,7 @@
                         <div class="porjectImg">
                             <div class="col-md-4 col-sm-12 col-xs-12">
                                 <div class="singlfolio marginBottom15">
-                                   	<img class="example-image" src="images/works/i3.jpg" />
+                                   	<img class="example-image" src="images/works/i3.jpg" alt="work" />
                                     <div class="sbHover">
                                         <a class="hoverIcons" class="example-image-link" href="images/works/i3.jpg" data-lightbox="example-1">
                                            	<i class="fa fa-2x fa-search-plus"></i>
@@ -251,7 +252,7 @@
                                     </div>
                                 </div>
                                 <div class="singlfolio marginBottom15-sm">
-                                    <img class="example-image" src="images/works/i6.jpg" />
+                                    <img class="example-image" src="images/works/i6.jpg" alt="work" />
                                     <div class="sbHover">
                                         <a class="hoverIcons" class="example-image-link" href="images/works/i6.jpg" data-lightbox="example-1">
                                            	<i class="fa fa-2x fa-search-plus"></i>
@@ -262,7 +263,7 @@
                             </div>
                             <div class="col-md-8 col-sm-12 col-xs-12 noPaddingLeft">
                                 <div class="singlfolio marginBottom15">
-                                    <img class="example-image" src="images/works/i5.jpg" />
+                                    <img class="example-image" src="images/works/i5.jpg" alt="work"/>
                                     <div class="sbHover">
                                         <a class="hoverIcons" class="example-image-link" href="images/works/i5.jpg" data-lightbox="example-1">
                                            	<i class="fa fa-2x fa-search-plus"></i>
@@ -271,7 +272,7 @@
                                     </div>
                                 </div>
                                 <div class="singlfolio marginBottom15-sm">
-                                    <img class="example-image" src="images/works/i7.jpg" />
+                                    <img class="example-image" src="images/works/i7.jpg" alt="work"/>
                                     <div class="sbHover">
                                         <a class="hoverIcons" class="example-image-link" href="images/works/i7.jpg" data-lightbox="example-1">
                                            	<i class="fa fa-2x fa-search-plus"></i>
@@ -279,13 +280,13 @@
                                         </a>
                                     </div>
                                 </div>
-                                
+
                                 <!--title bottom right-->
                                 <div class="title-bottom-right">
-                                	<img class="example-image" src="images/i8-boxed.png" />
+                                	<img class="example-image" src="images/i8-boxed.png" alt="boxed image"/>
                                 </div>
                                 <!--title bottom right-->
-                                
+
                             </div>
                             <div class="clearfix"></div>
                         </div>
@@ -294,7 +295,7 @@
             </div>
         </section>
         <!-- Latest Project End -->
-        
+
         <!--Who We Are start-->
 <!--
         <section class="commonSection ourSkills-main aleft">
@@ -317,9 +318,9 @@
 -->
         <!--Who We Are End-->
 
-        
+
         <!-- Latest News start -->
-        <section class="commonSection latestNewsSection">
+        <section class="commonSection latestNewsSection" id="services">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -333,7 +334,7 @@
                         <div class="col-sm-3 wow fadeInUp feat-work-box" data-wow-duration="700ms" data-wow-delay="300ms">
                             <div class="singleNews">
                                 <div class="latestnwesThumb">
-                                    <img src="images/project/f1.jpg" alt="">
+                                    <img src="images/firefighting.png" alt="">
                                 </div>
                                 <div class="latestnewsCon">
                                     <h3><a href="#">Design &amp; Execution </a></h3>
@@ -348,7 +349,7 @@
                         <div class="col-sm-3 wow fadeInUp feat-work-box" data-wow-duration="700ms" data-wow-delay="350ms">
                             <div class="singleNews">
                                 <div class="latestnwesThumb">
-                                    <img src="images/project/f2.jpg" alt="">
+                                    <img src="images/project/f2.jpg" alt="project">
                                 </div>
                                 <div class="latestnewsCon">
                                     <h3><a href="#">Soft Civil &amp; Interiors </a></h3>
@@ -364,7 +365,7 @@
                         <div class="col-sm-3 wow fadeInUp feat-work-box" data-wow-duration="700ms" data-wow-delay="400ms">
                             <div class="singleNews">
                                 <div class="latestnwesThumb">
-                                    <img src="images/project/f3.jpg" alt="">
+                                    <img src="images/project/f3.jpg" alt="project">
                                 </div>
                                 <div class="latestnewsCon">
                                     <h3><a href="#">HVAC</a></h3>
@@ -380,7 +381,7 @@
                         <div class="col-sm-3 wow fadeInUp feat-work-box" data-wow-duration="700ms" data-wow-delay="350ms">
                             <div class="singleNews">
                                 <div class="latestnwesThumb">
-                                    <img src="images/project/f4.jpg" alt="">
+                                    <img src="images/project/f4.jpg" alt="project">
                                 </div>
                                 <div class="latestnewsCon">
                                     <h3><a href="#">Fire Fighting &amp; Automation </a></h3>
@@ -438,8 +439,79 @@
                 </div>
             </div>
         </div><!-- /.modal -->
-        
+
          <!-- Client Logo start -->
+
+        <div id="carousel-example-generic1" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="row">
+                        <div class="col-md-3">
+
+                                <img src="images/ClineLogo/1.png" alt="" />
+
+                            </div>
+
+                            <div class="col-md-3">
+                                    <img src="images/ClineLogo/2.png" alt="" />
+                                </div>
+                        <div class="col-md-3">
+                            <img src="images/ClineLogo/3.png" alt="" />
+                        </div>
+
+                                <div class="col-md-3">
+                                <img src="images/ClineLogo/4.png" alt="" />
+                                    </div></div>
+                    <!--<div class="carousel-caption">
+                        ...
+                    </div>-->
+                </div>
+                <div class="item">
+                    <div class="row" id="clineLogo">
+                        <div class="col-md-3">
+                            <div class="singleClineLogo">
+                               <img src="images/ClineLogo/5.png" alt="" />
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <img src="images/ClineLogo/6.png" alt="" />
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="singleClineLogo">
+                                <img src="images/ClineLogo/c1.png" alt="" />
+                            </div></div>
+                        <div class="col-md-3">
+                            <div class="singleClineLogo">
+                              <img src="images/ClineLogo/c2.png" alt="" />
+                            </div></div></div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+
+
+
+<!--
         <section class="clineLogo graySection">
             <div class="container">
                 <div class="row" id="clineLogo">
@@ -470,9 +542,10 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
         <!-- Client Logo End -->
-        
+
+
         <!-- How we work start -->
         <section class="commonSection latest_project how_we_work">
             <div class="container">
@@ -490,7 +563,7 @@
                         		<div class="row flex-bottom">
                         			<div class="col-md-4 col-sm-12 col-xs-12 noPadRightLeft">
 																<div class="singlfolio marginBottom15">
-																			<img class="example-image" src="images/about/1.jpg" />
+																			<img class="example-image" src="images/about/1.jpg" alt="about"/>
 																			<div class="sbHover">
 																					<a class="hoverIcons" class="example-image-link" href="images/about/1.jpg" data-lightbox="example-1">
 																							<p>A meeting is scheduled with the client to discuss scope of work</p>
@@ -500,7 +573,7 @@
 															</div>
 															<div class="col-md-8 col-sm-12 col-xs-12">
 																<div class="singlfolio marginBottom15">
-																			<img class="example-image" src="images/about/3.jpg" />
+																			<img class="example-image" src="images/about/3.jpg" alt="about" />
 																			<div class="sbHover">
 																					<a class="hoverIcons" class="example-image-link" href="images/about/3.jpg" data-lightbox="example-1">
 																							<p>A meeting is scheduled with the client to discuss scope of work</p>
@@ -512,7 +585,7 @@
                         		<div class="row">
 															<div class="col-md-4 col-sm-12 col-xs-12 noPadRightLeft">
 																<div class="singlfolio marginBottom15-sm">
-																			<img class="example-image" src="images/about/2.jpg" />
+																			<img class="example-image" src="images/about/2.jpg" alt="about" />
 																			<div class="sbHover">
 																					<a class="hoverIcons" class="example-image-link" href="images/about/2.jpg" data-lightbox="example-1">
 																							<p>A meeting is scheduled with the client to discuss scope of work</p>
@@ -522,7 +595,7 @@
 															</div>
 															<div class="col-md-8 col-sm-12 col-xs-12">
 																<div class="singlfolio marginBottom15-sm">
-																			<img class="example-image" src="images/about/4.jpg" />
+																			<img class="example-image" src="images/about/4.jpg" alt="about" />
 																			<div class="sbHover">
 																					<a class="hoverIcons" class="example-image-link" href="images/about/4.jpg" data-lightbox="example-1">
 																							<p>A meeting is scheduled with the client to discuss scope of work</p>
@@ -534,7 +607,7 @@
                         	</div>
 													<div class="col-md-3 col-sm-12 col-xs-12 noPadRightLeft">
 														<div class="singlfolio">
-																<img class="example-image" src="images/about/5.jpg" />
+																<img class="example-image" src="images/about/5.jpg" alt="about" />
 																<div class="sbHover">
 																		<a class="hoverIcons" class="example-image-link" href="images/about/5.jpg" data-lightbox="example-1">
 																				<p>A meeting is scheduled with the client to discuss scope of work</p>
@@ -548,7 +621,7 @@
 															</div>
 														</div>
 													</div>
-                        	
+
                         </div>
                     </div>
                 </div>
@@ -566,12 +639,12 @@
                                 <div class="item active">
                                     <div class="singleTestimonial text-center">
                                         <div class="author_info">
-                                           	<img src="images/client-pic.png">
+                                           	<img src="images/client-pic.png" alt="client-pic">
                                             <h3>Mike Adams</h3>
                                             <span>Sway Ltd.</span>
                                         </div>
                                         <p>
-                                            Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
+                                            Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
                                             eaque ipsa quae ab illo inventore sed quia consequuntur magni dolores eos qui ratione bibendum elit.
                                         </p>
                                     </div>
@@ -579,12 +652,12 @@
                                 <div class="item">
                                     <div class="singleTestimonial text-center">
                                         <div class="author_info">
-                                           	<img src="images/client-pic.png">
+                                           	<img src="images/client-pic.png" alt="client-pic">
                                             <h3>Mike Adams</h3>
                                             <span>Sway Ltd.</span>
                                         </div>
                                         <p>
-                                            Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
+                                            Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
                                             eaque ipsa quae ab illo inventore sed quia consequuntur magni dolores eos qui ratione bibendum elit.
                                         </p>
                                     </div>
@@ -592,12 +665,12 @@
                                 <div class="item">
                                     <div class="singleTestimonial text-center">
                                         <div class="author_info">
-                                           	<img src="images/client-pic.png">
+                                           	<img src="images/client-pic.png" alt="client-pic">
                                             <h3>Mike Adams</h3>
                                             <span>Sway Ltd.</span>
                                         </div>
                                         <p>
-                                            Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
+                                            Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
                                             eaque ipsa quae ab illo inventore sed quia consequuntur magni dolores eos qui ratione bibendum elit.
                                         </p>
                                     </div>
@@ -611,7 +684,7 @@
             </div>
         </section>
         <!-- Testimonial End -->
-        
+
         <!--contact start-->
         <section class="commonSection contactForm1">
             <div class="container">
@@ -626,15 +699,15 @@
                     <div class="contactForm text-center">
                         <form action="#" method="post" id="contactForm">
                             <div class="col-sm-6 commonfield">
-                                <label for="name"><span>Name</span> (required)</label>  
+                                <label for="name"><span>Name</span> (required)</label>
                                 <input name="name" type="text" class="required" id="name">
                             </div>
                             <div class="col-sm-6 commonfield">
-                                <label for="email"><span>Email</span> (required)</label>  
+                                <label for="email"><span>Email</span> (required)</label>
                                 <input name="email" type="text" class="required" id="email">
                             </div>
                             <div class="col-sm-12 commonfield textAreaField-o">
-                                <label for="required"><span>your Message</span> (required)</label>  
+                                <label for="required"><span>your Message</span> (required)</label>
                                 <textarea class="required" id="required" name="required"></textarea> <br>
                                 <button id="con_submit" type="submit">Send Message</button>
                             </div>
@@ -644,7 +717,7 @@
             </div>
         </section>
         <!--contact end-->
-        
+
         <section class="team_usknow">
             <div class="container">
                 <div class="row">
@@ -654,7 +727,7 @@
                            		<h2>Experience Professional Interior Design Service delivered at high quality</h2>
                            	</div>
                            	<div class="col-md-2">
-                            	<a href="#" data-toggle="modal" data-target=".bs-example-modal-sm">Contact Now</a>                           		
+                            	<a href="#" data-toggle="modal" data-target="#myModal">Contact Now</a>
                            	</div>
                         </div>
                     </div>
@@ -669,7 +742,7 @@
                     <div class="col-lg-4 col-sm-6 wow zoomIn" data-wow-duration="700ms" data-wow-delay="300ms">
                         <aside class="widget">
                             <div class="about-footer">
-                                <img src="images/logo.png" alt="">
+                                <img src="images/logo.png" alt="logo">
                                 <p>Interior Options provides the best commercial interior designing services for corporate offices & retail outlets in Delhi, Noida & Gurgaon.</p>
                             </div>
                             <div class="footerSocialicon">
@@ -690,17 +763,17 @@
                             <p>Interior Design Consultalt</p>
                         </aside>
                     </div>
-                    <div class="clearfix hidden-lg hidden-sm"></div>                   
+                    <div class="clearfix hidden-lg hidden-sm"></div>
                     <div class="col-lg-3 col-sm-6 wow zoomIn" data-wow-duration="700ms" data-wow-delay="450ms">
                         <aside class="widget">
                             <h3 class="widget-title">GET IN TOUCH</h3>
                             <div class="address">
                                 <div class="singleAdds">
-                                    <img src="images/message_icon.png" alt="">
+                                    <img src="images/message_icon.png" alt="message icon">
                                     <a href="#">sanat@interioroptions.in</a>
                                 </div>
                                 <div class="singleAdds">
-                                    <img src="images/phone_icon.png" alt="">
+                                    <img src="images/phone_icon.png" alt="phone icon">
                                     <p>+91 971753355</p>
                                 </div>
                             </div>
@@ -718,18 +791,18 @@
 														Ph : 91-11-29944827
                        			</p>
                         </aside>
-                    </div> 
+                    </div>
                 </div>
             </div>
         </footer>
         <!-- Footer End -->
-        
+
         <div class="footerBootom">
         	<p class="small text-center">© Created with <i class="fa fa-heart-o"></i> by ScaleDesk All Rights Reserved InteriorOptions 2016.</p>
         </div>
 
         <a href="#" id="backToTop"><i class="fa fa-angle-up"></i></a>
-        
+
         <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
 					<div class="modal-dialog modal-sm" role="document">
 						<div class="modal-content">
@@ -765,10 +838,10 @@
         <script type="text/javascript" src="js/jquery.shuffle.min.js"></script>
         <script type="text/javascript" src="js/lightbox.min.js"></script>
         <script type="text/javascript" src="js/theme.js" ></script>
-        
+
         <!-- REVOLUTION JS FILES -->
 				<script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
-				<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script> 
+				<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
 					<!-- SLIDER REVOLUTION 5.0 EXTENSIONS -->
 				<script type="text/javascript" src="js/extensions/revolution.extension.actions.min.js"></script>
 				<script type="text/javascript" src="js/extensions/revolution.extension.carousel.min.js"></script>
@@ -779,5 +852,37 @@
 				<script type="text/javascript" src="js/extensions/revolution.extension.parallax.min.js"></script>
 				<script type="text/javascript" src="js/extensions/revolution.extension.slideanims.min.js"></script>
 				<script type="text/javascript" src="js/extensions/revolution.extension.video.min.js"></script>
+        <script>
+            $(document).ready(function(){
+
+                    $(".custom-lineheight").css("line-height", "16px");
+
+            });
+        </script>
+
+        <script>
+            $(document).ready(function(){
+
+                $(".contactForm").css("margin", "0 0");
+
+            });
+        </script>
+
+        <script>
+            $(document).ready(function(){
+
+                $(".margin-0").css("padding", "70px 0 0");
+
+            });
+        </script>
+
+        <script>
+            $(document).ready(function(){
+
+                $(" .sl1Con.header-boxed h2").css("margin", "-15px -15px 16px");
+
+            });
+        </script>
+
     </body>
 </html>

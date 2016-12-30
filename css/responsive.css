@@ -542,7 +542,7 @@
 @media(min-width:320px) and (max-width:480px) {
    .oder_list ul li {
       padding: 15px 15px 30px 0 !important;
-   } 
+   }
    .projectPagination a {
       font-size: 9px;
    }
@@ -642,7 +642,11 @@
 	}
 	.sl1Con.ct-form .contactForm {
 		width: 243px;
+       margin: 0px 30px;
 	}
+   .textAreaField button{
+      height:auto;
+   }
 /*
 	.third-layer {
 		display: none;

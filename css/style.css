@@ -99,8 +99,8 @@
 
 
 
-/**==================== 
-/Header 
+/**====================
+/Header
 ======================**/
 .header {
    left: 0;
@@ -272,8 +272,8 @@
    margin-top: 7px;
 }
 
-/**==================== 
-/Slider 
+/**====================
+/Slider
 ======================**/
 .slidersec {
    position: relative;
@@ -342,7 +342,7 @@
    right: 70px !important;
    top: 45.8% !important;
 }
-.tparrows.default.round.hidearrows, 
+.tparrows.default.round.hidearrows,
 .tp-bullets.simplebullets.hidebullets {
    display: block !important;
    opacity: 1 !important;
@@ -361,9 +361,9 @@
    -o-transition:all 500ms ease;
    transition:all 500ms ease;
 }
-.tp-bullets.simplebullets.round .bullet:hover, 
-.tp-bullets.simplebullets.round .bullet.selected, 
-.tp-bullets.simplebullets.navbar .bullet:hover, 
+.tp-bullets.simplebullets.round .bullet:hover,
+.tp-bullets.simplebullets.round .bullet.selected,
+.tp-bullets.simplebullets.navbar .bullet:hover,
 .tp-bullets.simplebullets.navbar .bullet.selected {
    background: #fff;
 }
@@ -458,12 +458,12 @@ a.atlBtn {
 a.atlBtn:hover {
    color: #252525;
 }
-a.sliderbtnTrans:hover, 
+a.sliderbtnTrans:hover,
 a.sliderbtnWhite {
    background: #fff;
    color: #252525;
 }
-a.sliderbtnWhite:hover, 
+a.sliderbtnWhite:hover,
 a.sliderbtnTrans {
    background: transparent;
    color: #fff;
@@ -474,7 +474,7 @@ a.sliderbtnTrans {
 }
 
 /**=====================
-/Our Skills 
+/Our Skills
 ======================**/
 .ourSkills-main.aright {
 	background-image: url(../images/triangle-left.png);
@@ -601,8 +601,8 @@ a.sliderbtnTrans {
    width: 0;
 }
 
-/**==================== 
-/Funfacts 
+/**====================
+/Funfacts
 ======================**/
 .funfactsSec {
 
@@ -611,7 +611,7 @@ a.sliderbtnTrans {
    padding: 47px 0 50px;
 }
 
-/**==================== 
+/**====================
 /Our Services
 ======================**/
 #testimonial_paralux {
@@ -699,7 +699,7 @@ a.sliderbtnTrans {
 	color: #bc8a32;
 }
 
-/**==================== 
+/**====================
 /Latest News
 ======================**/
 .latestNewsSection {
@@ -807,7 +807,7 @@ a.readmoreBtn:hover > i  {
    padding-left: 20px;
 }
 
-/**==================== 
+/**====================
 /Footer
 ======================**/
 .footerSection {
@@ -949,7 +949,7 @@ a.readmoreBtn:hover > i  {
    position: absolute;
    top: 7px;
 }
-.footerSection .widget .address .singleAdds p, 
+.footerSection .widget .address .singleAdds p,
 .footerSection .widget .address .singleAdds a {
    line-height: 25px;
    margin-bottom: 0;
@@ -1100,7 +1100,7 @@ a.readmoreBtn:hover > i  {
    font-weight: 400;
    letter-spacing: 0;
    text-transform: uppercase;
-   display: inline-block;     
+   display: inline-block;
 }
 .singlfolio h5 a:hover {
    color: #252525;
@@ -2128,7 +2128,7 @@ nav.paginations {
 // Blog 2 Col
 ============================================================*/
 .blog2colSection {
-   padding-bottom: 50px; 
+   padding-bottom: 50px;
 }
 .blog2colSection .blogPostCon > p:last-of-type {
    margin-bottom: 25px;
@@ -2138,7 +2138,7 @@ nav.paginations {
 // Blog 2 Col Masonry
 ============================================================*/
 .blog2colmasonrySection {
-   padding-bottom: 50px; 
+   padding-bottom: 50px;
 }
 .blog2colmasonrySection .singleblogPost {
    padding: 0 0 75px;
@@ -2148,13 +2148,13 @@ nav.paginations {
 // Blog 3 Col
 ============================================================*/
 .blog3colSection {
-   padding-bottom: 50px; 
+   padding-bottom: 50px;
 }
 /*==========================================================
 // Blog 3 Col Masonry
 ============================================================*/
 .blog3colmasonrySection {
-   padding-bottom: 50px; 
+   padding-bottom: 50px;
 }
 .blog3colmasonrySection .singleblogPost {
    padding: 0 0 75px;
@@ -2164,7 +2164,7 @@ nav.paginations {
 // Blog 4 Col
 ============================================================*/
 .blog4colSection {
-   padding-bottom: 50px; 
+   padding-bottom: 50px;
 }
 /*==========================================================
 // Blog Single
@@ -2175,7 +2175,7 @@ nav.paginations {
    width: 100%;
 }
 .blog4colmasonrySection {
-   padding-bottom: 50px; 
+   padding-bottom: 50px;
 }
 .blog4colmasonrySection .singleblogPost {
    padding: 0 0 75px;
@@ -2647,11 +2647,11 @@ a.blackbtn:hover {
    transition: all 500ms ease;
    background: #252525;
    height: 8px;
-   width: 8px;  
+   width: 8px;
    display: inline-block;
    border-radius: 50%;
    animation: wave 2s ease  infinite;
-}  
+}
 
 .carousel_active span:nth-child(1) i {  animation-delay: 0; }
 .carousel_active span:nth-child(2) i{  animation-delay: 100ms; }
@@ -2663,17 +2663,17 @@ a.blackbtn:hover {
 .carousel_active span:nth-child(8) i {  animation-delay: 700ms; }
 
 @keyframes wave{
-   0%, 40%, 100% { 
+   0%, 40%, 100% {
       transform: translate(0, 0);
-      background-color: #252525;    
+      background-color: #252525;
    }
-   10% { 
-      transform: translate(0, -15px); 
-      background-color: #252525;    
-   }  
+   10% {
+      transform: translate(0, -15px);
+      background-color: #252525;
+   }
 }
 /*=================================
-/ About 
+/ About
 ===================================*/
 .AboutpageFeatureimg {
    position: relative;
@@ -2946,7 +2946,7 @@ a.blackbtn:hover {
 /*=========================================================
 / Services Two
 ============================================================*/
-.marginBottom70{ 
+.marginBottom70{
    margin-bottom: 67px;
 }
 .marginbottom10 {
@@ -3033,7 +3033,7 @@ a.blackbtn:hover {
    margin: 0 0 23px;
 }
 .icon_box_servics2 h3{
-   color: #252525; 
+   color: #252525;
    font-size: 15px;
    line-height: 24px;
    font-weight: 700;
@@ -3054,7 +3054,7 @@ a.blackbtn:hover {
 	background-image: url(../images/bg-footer-top.png);
 	background-position: center center;
 	background-size: cover;
-	background-color: #8d8d8d;	 
+	background-color: #8d8d8d;
 }
 .usKnowtitle h2 {
    color: #ffffff;
@@ -3736,7 +3736,7 @@ a.blackbtn:hover {
    height: auto;
 }
 /*===================================================
-/ Shop Product 
+/ Shop Product
 ====================================================*/
 .single_product {
    padding-bottom: 75px;
@@ -4008,7 +4008,7 @@ a.blackbtn:hover {
 }
 .bx-wrapper .bx-next {
    background: url("../images/rightarro.png");
-   background-repeat: no-repeat; 
+   background-repeat: no-repeat;
 }
 .bx-wrapper .bx-prev {
    background: url("../images/leftarro.png");
@@ -4121,4 +4121,15 @@ a.showit:hover {
 }
 .modal-custom-foo{
     border:none;
+}
+/*light box modify arrow*/
+
+
+.lb-nav a.lb-prev{
+    background: none!important;
+}
+
+
+.lb-nav a.lb-next{
+    background: none!important;
 }
