@@ -1,0 +1,657 @@
+
+
+@media(min-width:1200px) and (max-width:1440px){
+   /*=================
+   // Home 1
+   =================*/
+   .tp-leftarrow.default.round::before {
+      left: 0;
+   }
+   .tp-rightarrow.default.round::after {
+      right: 0;
+   }
+}
+
+@media(min-width:768px) and (max-width:1024px) {
+   .bx-wrapper .bx-controls-direction a.bx-next {
+      top: -138px;
+   }
+}
+
+@media(min-width:768px) and (max-width:990px) {
+   /*=================
+   // Home 1
+   =================*/
+   .navMenu {
+      margin-top: 34px;
+   }
+   .tp-leftarrow.default.round::before {
+      left: -35px !important;
+   }
+   .tp-rightarrow.default.round::after {
+      right: -35px !important;
+   }
+   .weAreCon {
+      margin-bottom: 50px;
+   }
+   .footerSection {
+      padding: 64px 0 0;
+   }
+   .footerSection .widget {
+      margin-bottom: 50px;
+   }
+   .sorthingTwo .sorting select {
+      padding: 9px 56px 10px 10px;
+   }
+   .bx-wrapper .bx-controls-direction a.bx-next {
+      top: -242px;
+   }
+   .bx-wrapper .bx-controls-direction a {
+      left: 34px;
+   }
+   .check_Cart {
+      position: relative;
+      top: 20px;
+   }
+   .sl1Con h1 {
+      margin-top: -50px;
+   }
+   .sl1Con p {
+      margin-top: -18px;
+   }
+   /*=================
+   // Home 7
+   =================*/
+   .layoutHeading p {
+      padding: 0 0;
+   }
+
+   /*=================
+   // Home Shop
+   =================*/
+   .ourCallectionCon p {
+      padding: 0 95px;
+   }
+   .whatWe_title h2 {
+      padding-top: 108px;
+   }
+   .productRatting {
+      margin-bottom: 5px;
+   }
+   .shopProductPrice {
+      margin-bottom: 15px;
+   }
+   .home_Shop_bestSeller .singleShopProduct {
+      margin-bottom: 30px;
+   }
+   /*=================
+   // Cart
+   =================*/
+   .cart_table tbody tr td.product-thumbnail {
+      width: auto;
+   }
+   .cart_table tbody tr td.product-remove {
+      padding-right: 0;
+      padding-top: 0;
+   }
+   .blogListWrap {
+      width: 768px;
+   }
+   .blogPostCon h3 {
+      line-height: 0.8;
+   }
+   .bloglistcon {
+      padding-top: 0;
+   }
+   .commonSection.presentation {
+      padding-bottom: 0 !important;
+   }
+   .single-work.slick-slide img {
+      bottom: -100px;
+      height: auto;
+      position: relative;
+      width: 100% !important;
+   }
+   .single-work.slick-slide.slick-current.slick-active.slick-center > img {
+      position: relative;
+      top: 0;
+      transition: all 800ms ease-in-out 0s;
+      width: 100% !important;
+      z-index: 9;
+   }
+
+}
+@media(min-width:768px) and (max-width:1280px) {
+   .navMenu ul li {
+      margin-right: 18px;
+   }
+   .tp-rightarrow.default.round::after {
+      right: 0;
+   }
+   .tp-leftarrow.default.round::before {
+      left: 0;
+   }
+}
+@media(min-width:768px) and (max-width:1024px) {
+   .blogListWrap {
+      width: 90%;
+   }
+   .contactMap {
+      margin-top: 50px;
+   }
+   .skillBarWrap {
+      width: 93%;
+   }
+   .iconBox_01 p {
+      font-size: 12px;
+   }
+}
+@media(min-width:481px) and (max-width:640px) {
+   .commonSection.presentation {
+      padding-bottom: 0;
+   }
+   .single-work.slick-slide.slick-current.slick-active.slick-center > img {
+      width: 100%;
+   }
+   .single-work.slick-slide img {
+      width: 100%;
+   }
+}
+@media(min-width:360px) and (max-width:640px) {
+   .sl1Con {
+      margin-top: 0;
+   }
+   .navMenu ul {
+      top: 13px;
+   }
+   .tp-rightarrow.default.round:after {
+      top: 120px;
+   }
+   .tp-leftarrow.tparrows.default.round {
+      top: 58% !important;
+   }
+   .slidersec {
+      height: auto !important;
+   }
+   .update_Value.check_Cart {
+      position: relative;
+      right: 30px;
+      top: 10px;
+   }
+   .searchbarInner {
+      bottom: -63px;
+      right: 146px;
+      width: 100%;
+   }
+}
+
+@media(min-width:320px) and (max-width:767px) {
+   .footerSection .widget {
+      margin-bottom: 30px;
+   }
+   .viewAllWork.text-right {
+      text-align: left;
+      margin-bottom: 30px;
+   }
+   .sectionTitle {
+      margin-bottom: 20px;
+   }
+
+   .navMenu ul {
+      display: none;
+   }
+   .navMenu {
+      margin-top: 10px;
+   }
+   .moblieMenu {
+      cursor: pointer;
+      display: block;
+      height: 17px;
+      line-height: 0.2;
+      margin: 0;
+      padding: 0;
+      width: 30px;
+      position: absolute;
+      top: -26px;
+      right: 17px;
+   }
+   .moblieMenu span {
+      background: #fff;
+      display: inline-block;
+      height: 2px;
+      width: 100%;
+   }
+   .navMenu ul li {
+      display: block;
+      text-align: center;
+      position: relative;
+      width: 100%;
+   }
+   .navMenu ul {
+      background: #252525;
+      left: 0;
+      padding: 15px 0;
+      position: absolute;
+      top: 2px;
+      width: 100%;
+      z-index: 9999;
+      height: 300px;
+      overflow: scroll;
+   }
+   .navMenu ul ul.sub-menu {
+      position: relative;
+      top: 15px !important;
+      left: 0;
+      right: 0;
+      margin: auto auto 25px;
+      width: 100%;
+      padding: 0;
+      transition: none;
+      visibility: visible;
+      opacity: 1;
+      height: auto;
+   }
+   .fixedHeader {
+      padding: 10px 0 1px
+   }
+   .logo {
+      margin-bottom: 3px;
+   }
+   .sl1Con {
+      margin-top: 30px;
+   }
+   .sl1Con h1 {
+      font-size: 17px;
+      font-weight: 400;
+      letter-spacing: 0;
+      margin-bottom: 10px;
+   }
+   .logo {
+      margin-top: 10px;
+   }
+   a.atlBtn {
+      font-size: 10px;
+      height: 35px;
+      padding: 12px 11px 5px;
+   }
+   .sl1Con p {
+      font-size: 12px;
+      padding-top: 70px;
+   }
+   .slidersec{
+      position: relative;
+      height: 480px;
+   }
+   .slidersec .tp-banner {
+      height: 480px !important;
+   }
+   .tp-bullets {
+      z-index: 50;
+   }
+   .searchcartWrap {
+      position: absolute;
+      top: -26px;
+      right: 68px;
+   }
+   .singleSkill {
+      padding-left: 96px;
+   }
+   .skillBarWrap {
+      width: 320px;
+   }
+   .singleSkill h6 {
+      position: inherit;
+   }
+   .singleSkill {
+      padding-left: 0;
+   }
+   .count p {
+      margin: 0 0 21px;
+   }
+   .footerSocialicon {
+      margin-bottom: 15px;
+   }
+   .tp-leftarrow.tparrows.default.round {
+      left: 23px !important;
+      top: 75% !important;
+   }
+   .tp-rightarrow.default.round::after {
+      right: -46px;
+      top: 220px;
+   }
+   .tp-leftarrow.default.round::before {
+      left: 0;
+      top: 80px;
+   }
+   .ourSkills {
+      overflow: hidden;
+   }
+   /** home 2  **/
+   .textbox_01 {
+      margin-bottom: 20px;
+   }
+   .single_TeaMember {
+      margin-bottom: 38px;
+   }
+   /** home 3  **/
+   .videoSection {
+      height: 226px;
+   }
+   /** home 7  **/
+   .layoutHeading p {
+      padding: 0;
+   }
+   /** shop 4  **/
+   .viewAs {
+      padding-top: 15px;
+      text-align: left;
+   }
+   a.atlBtn {
+      margin-top: 0;
+   }
+   .Add_to {
+      margin-top: -93px;
+   }
+   .update_Value.check_Cart {
+      display: inline-block;
+      margin-top: 15px;
+   }
+   .tab_menu ul li {
+      padding-right: 30px;
+   }
+   .real_thumbnail {
+      margin-bottom: 15px;
+   }
+   .product_Code {
+      padding-right: 0;
+   }
+   .paginations.text-center {
+      margin-bottom: 33px;
+   }
+   .whatWe_title h2 {
+      font-size: 23px;
+      padding-bottom: 20px;
+      padding-top: 0;
+      text-align: center;
+   }
+   .whatWe_text p {
+      padding: 0 12px;
+   }
+   .Pricing_table {
+      padding: 30px 0;
+   }
+   .single_pricing {
+      margin-bottom: 40px;
+   }
+   .oder_list {
+      padding: 0;
+   }
+   .oder_list ul li {
+      margin-bottom: 0;
+      line-height: 25px;
+   }
+   .oder_list ul li span {
+      float: none;
+   }
+   .oder_list ul li:last-child {
+      font-size: 14px;
+   }
+   .blogListWrap {
+      width: 100%;
+   }
+   .ourCallectionCon p {
+      padding: 0;
+   }
+   .readmoreBtn {
+      margin-bottom: 15px;
+   }
+   .sl1Con a.atlBtn {
+      margin-top: 136px;
+   }
+   .singProjectCon h3 {
+      padding-top: 25px;
+   }
+   .companyURL {
+      margin-bottom: 15px;
+      text-align: left;
+   }
+   .ourCallectionCon h3 {
+      line-height: 40px;
+   }
+   .ourCollectionSection {
+      padding-top: 55px;
+   }
+   .cart_table thead tr th:first-child {
+      padding-left: 10px;
+   }
+   .cart_table thead tr th {
+      font-size: 12px;
+   }
+   .cart_table tbody tr td.product-thumbnail a.itemtitle {
+      font-size: 13px;
+   }
+   .cart_table tbody tr td.product-thumbnail {
+      width: 15%;
+   }
+   .cart_table thead tr th.product-subtotal {
+      padding-left: 10px;
+   }
+   .cart_table tbody tr td.product-subtotal {
+      padding-left: 15px;
+   }
+   .coupon {
+      padding-bottom: 0;
+      padding-left: 0;
+      padding-top: 0;
+   }
+   .cart_table tbody tr td.actions {
+      top: 0;
+   }
+   .fast_amount_cart {
+      font-size: 12px;
+      padding-top: 10px;
+      text-align: left;
+   }
+   .usdTotal h3 {
+      left: 0;
+      line-height: 17px;
+      text-align: left;
+   }
+   .update_Value.check_Cart {
+      margin-top: 0;
+   }
+   .check_Cart {
+      margin-right: 0;
+   }
+   .cart_table tbody tr td.product-subtotal {
+      padding-left: 0;
+   }
+   .cart_table tbody tr td.product-quantity .quantity {
+      margin-left: 0;
+   }
+   .product-remove {
+      padding-right: 0;
+   }
+   .cart_table tbody tr td.product-thumbnail img {
+      margin-right: 10px;
+      width: 65px;
+   }
+   .cart_table tbody tr td.product-thumbnail a.itemtitle {
+      position: absolute;
+      top: 36px;
+      font-size: 12px;
+   }
+   .amount_cart {
+      line-height: 15px;
+      line-height: 15px;
+   }
+   .fast_amount_cart {
+      margin-left: 75px;
+   }
+   .product-remove {
+      border:transparent !important;
+      right: 85px;
+      position: absolute;
+      top: 22px;
+   }
+   .product-price .amount .border_Radius {
+      height: 10px;
+      line-height: 0.9;
+      margin-left: 0;
+      padding: 0;
+      width: 10px;
+   }
+   .cart_table tbody tr td.product-thumbnail a.itemtitle {
+      font-size: 12px;
+      position: absolute;
+      top: 100px;
+      left: 0;
+   }
+   .amount, .searchamount {
+      font-size: 12px;
+   }
+   .cart_table tbody tr td.actions {
+      padding-bottom: 13px;
+      top: 12px;
+   }
+   .quantity .check_Cart {
+      margin-right: 53px;
+      margin-top: 10px !important;
+   }
+   .header {
+      z-index: 101;
+   }
+   .count {
+      margin-bottom: 40px;
+   }
+   .usKnowtitle h2 {
+      font-size: 15px;
+      line-height: 24px;
+      margin: 0 0 23px;
+   }
+   .team_usknow {
+      padding: 50px 0;
+   }
+   .commonSection {
+      padding: 60px 0;
+   }
+   .sl1Con p {
+      padding: 70px 15px 0;
+   }
+}
+@media(min-width:320px) and (max-width:480px) {
+   .oder_list ul li {
+      padding: 15px 15px 30px 0 !important;
+   } 
+   .projectPagination a {
+      font-size: 9px;
+   }
+   .h1funpadd {
+      padding: 47px 0 8px;
+   }
+   .navMenu ul {
+      top: 13px;
+   }
+   .skilPercent {
+      top: 0;
+   }
+   .searchbarInner {
+      bottom: -63px;
+      right: 126px;
+      width: 100%;
+   }
+   .commonSection.presentation {
+      padding-bottom: 0px;
+   }
+   .single-work.slick-slide img {
+      bottom: -30px;
+      height: auto;
+      width: 100%;
+   }
+   .single-work.slick-slide.slick-current.slick-active.slick-center > img {
+      top: 0;
+      width: 100%;
+      z-index: 9;
+   }
+   .sl1Con h1 {
+      margin-top: -65px;
+   }
+   .sl1Con p {
+      margin-top: -40px;
+   }
+}
+
+@media (max-width:768px) {
+	.marginBottom15-sm {
+		 margin-bottom: 15px !important;
+	}
+	.porjectImg .noPaddingLeft {
+		padding-left: 15px !important;
+	}
+	.title-bottom-right {
+		display: none;
+	}
+	.latest_project .sectionTitleTriangle {
+		left: 50px;
+	}
+	.flex-box-middle {
+		display: block;
+	}
+	.ourSkills-main.aright .ourSkills-imgs {
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+		float: none;
+	}
+	.ourSkills-main.aleft .ourSkills-imgs {
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+		float: none;
+	}
+	.newsWrap .singleNews {
+		height: auto;
+	}
+	.singleTestimonial:after {
+		display: none;
+	}
+	#testimonialCarousel .item {
+		padding-bottom: 0;
+	}
+	.latestNewsSection .wired-title:after {
+		border-top: 2px solid #252525;
+		border-bottom: 0;
+		border-left: 0;
+		border-right: 0;
+		width: 100%;
+    left: 0;
+	}
+	.first-layer {
+		right: 0;
+		left: 0;
+		display: block;
+	}
+	.sl1Con.header-boxed {
+		border: none;
+	}
+	.sl1Con.header-boxed h2 {
+		font-size: 24px;
+	}
+	.sl1Con.header-boxed p.margin-0 {
+		margin: -50px !important;
+	}
+	.sl1Con.ct-form .contactForm {
+		width: 243px;
+	}
+/*
+	.third-layer {
+		display: none;
+	}
+*/
+	.row.flex-bottom {
+		display: block;
+	}
+	.footerSection {
+		background-position: top, bottom;
+	}
+}
