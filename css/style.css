@@ -4133,3 +4133,9 @@ a.showit:hover {
 .lb-nav a.lb-next{
     background: none!important;
 }
+
+.client-log{
+    max-width: 100%;
+    width: 180px;
+
+}
