@@ -115,18 +115,19 @@
 										<div class="sl1Con ct-form">
 											<div class="contactForm text-center">
 												<h3>Get Free Quotation</h3>
-												<form action="#" method="post" id="contactForm">
+												<form action="" method="post" id="contactForm">
 														<div class="col-sm-12 commonfield uncommon">
 																<input name="name" type="text" class="required custom-lineheight" id="name" placeholder="Full Name">
 														</div>
 														<div class="col-sm-12 commonfield uncommon">
-																<input name="email" type="text" class="required custom-lineheight" id="email" placeholder="Email Id">
+																<input name="email" type="email" class="required custom-lineheight" id="email" placeholder="Email Id">
 														</div>
 														<div class="col-sm-12 commonfield uncommon">
-																<input name="number" type="text" class="required custom-lineheight" id="phone" placeholder="Phone Number">
-														</div>
+																<input name="phone" type="text" class="required custom-lineheight" id="phone" placeholder="Phone Number">
+														</div> 
 														<div class="col-sm-12 commonfield uncommon textAreaField">
 																<input name="message" type="text" class="required custom-lineheight" id="message" placeholder="Your Requirements">
+                                                                 
 														</div>
 														<div class="col-sm-12 commonfield uncommon textAreaField">
 																<button id="con_submit" type="submit custom-lineheight">Send Message</button>
@@ -412,7 +413,7 @@
                         <div class="sl1Con ct-form">
                             <div class="contactForm text-center">
                                 <h4></h4>
-                                <form action="#" method="post" id="contactForm">
+                                <form action="PHPMailer/MailFunction.php" method="post" id="modalcontactForm">
                                     <div class="col-sm-12 commonfield uncommon">
                                         <input name="name" type="text" class="required" id="name" placeholder="Full Name">
                                     </div>
@@ -424,9 +425,10 @@
                                     </div>
                                     <div class="col-sm-12 commonfield uncommon textAreaField">
                                         <input name="message" type="text" class="required" id="message" placeholder="Your Requirements">
+                                       
                                     </div>
                                     <div class="col-sm-12 commonfield uncommon textAreaField">
-                                        <button id="con_submit" type="submit">Send Message</button>
+                                        <button id="modal_submit" type="submit">Send Message</button>
                                     </div>
                                 </form>
                             </div>
@@ -697,19 +699,19 @@
                 </div>
                 <div class="row">
                     <div class="contactForm text-center">
-                        <form action="#" method="post" id="contactForm">
+                        <form action="" method="post" id="footercontactForm">
                             <div class="col-sm-6 commonfield">
                                 <label for="name"><span>Name</span> (required)</label>
-                                <input name="name" type="text" class="required" id="name">
+                                <input name="footer_name" type="text" class="required" id="footer_name">
                             </div>
                             <div class="col-sm-6 commonfield">
                                 <label for="email"><span>Email</span> (required)</label>
-                                <input name="email" type="text" class="required" id="email">
+                                <input name="footer_email" type="email" class="required" id="footer_email">
                             </div>
                             <div class="col-sm-12 commonfield textAreaField-o">
                                 <label for="required"><span>your Message</span> (required)</label>
-                                <textarea class="required" id="required" name="required"></textarea> <br>
-                                <button id="con_submit" type="submit">Send Message</button>
+                                <textarea class="required"  id="footer_message" name="footer_message"></textarea> <br>
+                                <button id="footer_submit"  type="submit">Send Message</button>
                             </div>
                         </form>
                     </div>
