@@ -547,6 +547,7 @@
         //========================
     // Modal Contact Submit
     //========================
+
     if ($("#modalcontactForm").length > 0)
     {
         $("#modalcontactForm").on('submit', function (e) {
@@ -557,9 +558,7 @@
            
             var phone = $("#phone").val();
 
-           
             var  message = $('#message').val();
-
 
             var required = 0;
             $(".required", this).each(function () {

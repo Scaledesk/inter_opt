@@ -6,7 +6,7 @@ $email=$_POST['email'];
 $phone=$_POST['phone'];
 $name=$_POST['name'];
 $text=$_POST['message'];
-$hidden=$_POST['hidden'];
+
 $emailadmin="nkscoder@gmail.com";
 /*$emailsubadmin="lakhani@scaledesk.com";*/
 /*$namefrom=$_POST['pagefrom'];*/
@@ -68,24 +68,19 @@ $mail1->Body    = $message;
    
 if(!$mail1->send())
  {
-      /* header("location: ../index.html");*/
+      
       echo $message;
 } else {
     // return "ok";
             if($mail->send()){
-              if ($hidden=='modal'){
-                  echo "string";
-                     /* header("location: ../index.html");*/
-              }else{
                    echo "ok";
-              }
+
             
                /* echo "thankyou";*/
                /* header("location: ../index.html");*/
             }else{
-                /*echo "string2222";
-                die();*/
-                /*header("location: ../index.html");*/
+                     echo "no";
+
             }
       }
 /*
