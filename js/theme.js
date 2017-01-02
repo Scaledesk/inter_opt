@@ -493,11 +493,7 @@
             $("#con_submit").html('Processsing...');
             var name = $("#name").val();
             var email = $("#email").val();
-           
-            var phone = $("#phone").val();
-
-           
-            var  message = $('#message').val();
+            var subject = $("#subject").val();
 
 
             var required = 0;
@@ -522,129 +518,12 @@
             {
                 $.ajax({
                     type: "POST",
-                    url: 'PHPMailer/MailFunction.php',
-                    data: {name: name, email: email, message:message, phone:phone},
+                    url: 'php/mail.php',
+                    data: {con_name: con_name, con_email: con_email, con_message: con_message},
                     success: function (data)
                     {
-                         console.log(data);
                         $("#con_submit").html('Done!');
                         $("#contactForm input, #contactForm textarea").val('');
-                    }
-                });
-            } else
-            {
-                $("#con_submit").html('Failed!');
-            }
-
-        });
-
-        $(".required").on('keyup', function () {
-            $(this).removeClass('reqError');
-        });
-    }
-    ;
-
-        //========================
-    // Modal Contact Submit
-    //========================
-
-    if ($("#modalcontactForm").length > 0)
-    {
-        $("#modalcontactForm").on('submit', function (e) {
-            e.preventDefault();
-            $("#modal_submit").html('Processsing...');
-            var name = $("#name").val();
-            var email = $("#email").val();
-           
-            var phone = $("#phone").val();
-
-            var  message = $('#message').val();
-
-            var required = 0;
-            $(".required", this).each(function () {
-                if ($(this).val() == '')
-                {
-                    $(this).addClass('reqError');
-                    required += 1;
-                } else
-                {
-                    if ($(this).hasClass('reqError'))
-                    {
-                        $(this).removeClass('reqError');
-                        if (required > 0)
-                        {
-                            required -= 1;
-                        }
-                    }
-                }
-            });
-            if (required === 0)
-            {
-                $.ajax({
-                    type: "POST",
-                    url: 'PHPMailer/MailFunction.php',
-                    data: {name: name, email: email, message:message, phone:phone},
-                    success: function (data)
-                    {
-                         console.log(data);
-                        $("#modal_submit").html('Done!');
-                        $("#modalcontactForm input, #modalcontactForm textarea").val('');
-                    }
-                });
-            } else
-            {
-                $("#modal_submit").html('Failed!');
-            }
-
-        });
-
-        $(".required").on('keyup', function () {
-            $(this).removeClass('reqError');
-        });
-    }
-    ;
-   //========================
-    // footer Contact Submit
-    //========================
-    if ($("#footercontactForm").length > 0)
-    {
-        $("#footercontactForm").on('submit', function (e) {
-            e.preventDefault();
-            $("#footer_submit").html('Processsing...');
-            var name = $("#footer_name").val();
-            var email = $("#footer_email").val(); 
-            var  message = $('#footer_message').val();
-
-
-            var required = 0;
-            $(".required", this).each(function () {
-                if ($(this).val() == '')
-                {
-                    $(this).addClass('reqError');
-                    required += 1;
-                } else
-                {
-                    if ($(this).hasClass('reqError'))
-                    {
-                        $(this).removeClass('reqError');
-                        if (required > 0)
-                        {
-                            required -= 1;
-                        }
-                    }
-                }
-            });
-            if (required === 0)
-            {
-                $.ajax({
-                    type: "POST",
-                    url: 'PHPMailer/MailFunction.php',
-                    data: {name: name, email: email, message:message},
-                    success: function (data)
-                    {
-                         console.log(data);
-                        $("#footer_submit").html('Done!');
-                        $("#footercontactForm input, #footercontactForm textarea").val('');
                     }
                 });
             } else

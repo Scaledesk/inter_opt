@@ -396,8 +396,13 @@
 }
 .sl1Con.header-boxed {
 	text-align: left;
-	border: 1px solid #fff;
+/*	border: 1px solid #fff;*/
 	padding: 50px 30px;
+}
+
+.logo-bannr{
+    height:20px;
+    width: 20px;
 }
 .sl1Con.header-boxed h2 {
 	font-size: 55px;
@@ -4138,4 +4143,33 @@ a.showit:hover {
     max-width: 100%;
     width: 180px;
 
+}
+
+.tagline{
+    vertical-align: middle;
+    text-align: center;
+}
+
+.v-large-title{
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.35;
+    font-size: 38px;
+    margin-bottom: 20px;
+
+}
+
+.thank-banner{
+    background: url('../images/slider/2.jpg') center no-repeat;
+
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center;
 }
