@@ -8,10 +8,12 @@ $name=$_POST['name'];
 $text=$_POST['message'];
 
 $emailadmin="nkscoder@gmail.com";
+/*$emailadmin="sanat@interioroptions.in";*/
+
 /*$emailsubadmin="lakhani@scaledesk.com";*/
 /*$namefrom=$_POST['pagefrom'];*/
-$subject = "Contact Us";
-$Usersubject="Thank You for interior Option";
+$subject = "Enquiry";
+$Usersubject="Thank You";
 $messageUsers=file_get_contents('template.html');
 $message ='<html>
 <body>
@@ -23,26 +25,26 @@ $message ='<html>
 
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'sub5.mail.dreamhost.com';  // Specify main and backup SMTP servers
+$mail->Host = 'webmail.interioroptions.in';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'hi@scaledesk.com';                 // SMTP username
-$mail->Password = 'qazplmq1w2e3r4';                           // SMTP password
-//$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 587;// TCP port to connect to
+$mail->Username = 'sanat@interioroptions.in';                 // SMTP username
+$mail->Password = 'newyork@1983';                           // SMTP password
+$mail->SMTPSecure = 'TLS';                            // Enable TLS encryption, `ssl` also accepted
+$mail->Port = 465;// TCP port to connect to
 $mail->IsHTML(true);
-$mail->setFrom('hi@scaledesk.com', 'Scaledesk Web Studio');
+$mail->setFrom('sanat@interioroptions.in', 'Interior Options');
 //$mail->addAddress('ellen@example.com');               // Name is optional
-$mail->addReplyTo('hi@scaledesk.com', 'noreply');
+$mail->addReplyTo('sanat@interioroptions.in', 'noreply');
 
 $mail1->isSMTP();                                      // Set mailer to use SMTP
-$mail1->Host = 'sub5.mail.dreamhost.com';  // Specify main and backup SMTP servers
+$mail1->Host = 'webmail.interioroptions.in';  // Specify main and backup SMTP servers
 $mail1->SMTPAuth = true;                               // Enable SMTP authentication
-$mail1->Username = 'hi@scaledesk.com';                 // SMTP username
-$mail1->Password = 'qazplmq1w2e3r4';                           // SMTP password
-//$mail1->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-$mail1->Port = 587;// TCP port to connect to
+$mail1->Username = 'sanat@interioroptions.in';                 // SMTP username
+$mail1->Password = 'newyork@1983';                           // SMTP password
+$mail1->SMTPSecure = 'TLS';                            // Enable TLS encryption, `ssl` also accepted
+$mail1->Port = 465;// TCP port to connect to
 $mail1->IsHTML(true);
-$mail1->setFrom('hi@scaledesk.com', 'Scaledesk Web Studio');
+$mail1->setFrom('sanat@interioroptions.in', 'Interior Options');
 
 
 $mail->addAddress($email, $name);     // Add a recipient
@@ -68,8 +70,7 @@ $mail1->Body    = $message;
    
 if(!$mail1->send())
  {
-      
-      echo $message;
+  echo 'Mailer Error: ' . $mail1->ErrorInfo;
 } else {
     // return "ok";
             if($mail->send()){

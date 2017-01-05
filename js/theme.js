@@ -522,12 +522,13 @@
             {
                 $.ajax({
                     type: "POST",
-                    url: 'PHPMailer/MailFunction.php',
+                    url: 'mail.php',
                     data: {name: name, email: email, message:message, phone:phone},
                     success: function (data)
                     {
                          console.log(data);
                         $("#con_submit").html('Done!');
+                         window.location.replace("http://localhost/inter_opt/thankyou.html");
                         $("#contactForm input, #contactForm textarea").val('');
                     }
                 });
@@ -582,12 +583,13 @@
             {
                 $.ajax({
                     type: "POST",
-                    url: 'PHPMailer/MailFunction.php',
+                    url: 'mail.php',
                     data: {name: name, email: email, message:message, phone:phone},
                     success: function (data)
                     {
                          console.log(data);
                         $("#modal_submit").html('Done!');
+                         window.location.replace("http://localhost/inter_opt/thankyou.html");
                         $("#modalcontactForm input, #modalcontactForm textarea").val('');
                     }
                 });
@@ -638,12 +640,13 @@
             {
                 $.ajax({
                     type: "POST",
-                    url: 'PHPMailer/MailFunction.php',
+                    url: 'mail.php',
                     data: {name: name, email: email, message:message},
                     success: function (data)
                     {
                          console.log(data);
                         $("#footer_submit").html('Done!');
+                        window.location.replace("http://localhost/inter_opt/thankyou.html");
                         $("#footercontactForm input, #footercontactForm textarea").val('');
                     }
                 });
@@ -800,6 +803,21 @@ $(document).ready(function () {
 	});
 
 /*smooth scroll*/
+
+$(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 1000);
+                return false;
+            }
+        }
+    });
+});
 
 
 /*

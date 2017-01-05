@@ -413,7 +413,7 @@
                                         <input name="name" type="text" class="required" id="name" placeholder="Full Name">
                                     </div>
                                     <div class="col-sm-12 commonfield uncommon">
-                                        <input name="email" type="text" class="required" id="email" placeholder="Email Id">
+                                        <input name="email" type="email" class="required" id="email" placeholder="Email Id">
                                     </div>
                                     <div class="col-sm-12 commonfield uncommon">
                                         <input name="number" type="text" class="required" id="phone" placeholder="Phone Number">
