@@ -605,39 +605,36 @@
                                 <div class="item active">
                                     <div class="singleTestimonial text-center">
                                         <div class="author_info">
-                                           	<img src="images/client-pic.png" alt="client-pic">
-                                            <h3>Mike Adams</h3>
-                                            <span>Sway Ltd.</span>
+                                           	<img src="images/ClineLogo/anup.jpg" alt="client-pic">
+                                            <h3>Anup Pabby</h3>
+                                            <span>MD - Deutsch Bank</span>
                                         </div>
                                         <p>
-                                            Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                                            eaque ipsa quae ab illo inventore sed quia consequuntur magni dolores eos qui ratione bibendum elit.
+                                           We are delighted with our new offices.Interior Options Team did a terrific job interpreting our vision for collaborative space. They worked with us to make cost effective choices and yet retain a highly functional and inviting work environment. 
                                         </p>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="singleTestimonial text-center">
                                         <div class="author_info">
-                                           	<img src="images/client-pic.png" alt="client-pic">
-                                            <h3>Mike Adams</h3>
-                                            <span>Sway Ltd.</span>
+                                           	<img src="images/ClineLogo/premdeshpandey.jpg" alt="client-pic">
+                                            <h3>Prem Deshpandey</h3>
+                                            <span>Project Manager - Future Lifestyle</span>
                                         </div>
                                         <p>
-                                            Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                                            eaque ipsa quae ab illo inventore sed quia consequuntur magni dolores eos qui ratione bibendum elit.
+                                            We wanted to create a great place to work that also showcases our talents. This top quality accommodation provides it. Our people are proud of it.
                                         </p>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="singleTestimonial text-center">
                                         <div class="author_info">
-                                           	<img src="images/client-pic.png" alt="client-pic">
-                                            <h3>Mike Adams</h3>
-                                            <span>Sway Ltd.</span>
+                                           	<img src="images/ClineLogo/jagjeet.jpg" alt="client-pic">
+                                            <h3>Jagjeet Singh</h3>
+                                            <span>Project Manager - Aditya Birla Fashion &amp; Retail Ltd.</span>
                                         </div>
                                         <p>
-                                            Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                                            eaque ipsa quae ab illo inventore sed quia consequuntur magni dolores eos qui ratione bibendum elit.
+                                            We have created an environment that everyone will enjoy working in.You have a great team with excellent design capability and a strong breadth of skills in delivering projects. Projects are well managed with great transparency of costs.
                                         </p>
                                     </div>
                                 </div>
@@ -707,7 +704,7 @@
         <footer class="footerSection">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-sm-6 wow zoomIn p-r-80" data-wow-duration="700ms" data-wow-delay="300ms">
+                    <div class="col-lg-3 col-sm-6 wow zoomIn p-r-80" data-wow-duration="700ms" data-wow-delay="300ms">
                         <aside class="widget">
                             <div class="about-footer">
                                 <img src="images/logo.png" alt="logo">
@@ -722,10 +719,10 @@
                             </div>
                         </aside>
                     </div>
-                    <div class="col-lg-2 col-sm-6 wow zoomIn" data-wow-duration="700ms" data-wow-delay="350ms">
+                    <div class="col-lg-3 col-sm-6 wow zoomIn" data-wow-duration="700ms" data-wow-delay="350ms">
                         <aside class="widget">
                             <h3 class="widget-title">WHO WE ARE</h3>
-                            <h2>Commercial Interior Designers</h2>
+                            <h1>Commercial Interior Designers</h1>
                             <h2>Corporate Interior Designers</h2>
                                 <h2>Retail Interior Designers </h2>
                             <h2>Interior Design Consultant</h2>
