@@ -184,7 +184,7 @@
                         <div class="iconBox_01 text-center serv1">
                             <img src="images/icons/s6.png" alt="Impeccable services">
                             <h3>Impeccable Services</h3>
-                            <p>We offer services that are highly commended by our patrons. Our company focuses on client satisfaction and our team of designers strive to meet your expectations. The entire process of creative design is carried out by commercial designers who are thoroughly experienced in the domain of commercial interior designing. </p>
+                            <p>We offer services that are highly commended by our patrons. Our company focuses on <b>client satisfaction </b>and our team of designers strive to meet your expectations. The entire process of creative design is carried out by commercial designers who are thoroughly experienced in the domain of commercial interior designing. </p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="350ms">
@@ -245,7 +245,7 @@
                                     <div class="sbHover">
                                         <a class="hoverIcons" class="example-image-link" href="images/works/i3.jpg" data-lightbox="example-1">
                                            	<i class="fa fa-2x fa-search-plus"></i>
-                                            <h5>The Singer</h5>
+                                            <h5>View</h5>
                                         </a>
                                     </div>
                                 </div>
@@ -254,7 +254,7 @@
                                     <div class="sbHover">
                                         <a class="hoverIcons" class="example-image-link" href="images/works/i6.jpg" data-lightbox="example-1">
                                            	<i class="fa fa-2x fa-search-plus"></i>
-                                            <h5>The Singer</h5>
+                                            <h5>View</h5>
                                         </a>
                                     </div>
                                 </div>
@@ -265,7 +265,7 @@
                                     <div class="sbHover">
                                         <a class="hoverIcons" class="example-image-link" href="images/works/i5.jpg" data-lightbox="example-1">
                                            	<i class="fa fa-2x fa-search-plus"></i>
-                                            <h5>The Singer</h5>
+                                            <h5>View</h5>
                                         </a>
                                     </div>
                                 </div>
@@ -274,7 +274,7 @@
                                     <div class="sbHover">
                                         <a class="hoverIcons" class="example-image-link" href="images/works/i7.jpg" data-lightbox="example-1">
                                            	<i class="fa fa-2x fa-search-plus"></i>
-                                            <h5>The Singer</h5>
+                                            <h5>View</h5>
                                         </a>
                                     </div>
                                 </div>
@@ -707,7 +707,7 @@
         <footer class="footerSection">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-sm-6 wow zoomIn" data-wow-duration="700ms" data-wow-delay="300ms">
+                    <div class="col-lg-4 col-sm-6 wow zoomIn p-r-80" data-wow-duration="700ms" data-wow-delay="300ms">
                         <aside class="widget">
                             <div class="about-footer">
                                 <img src="images/logo.png" alt="logo">
@@ -725,10 +725,10 @@
                     <div class="col-lg-2 col-sm-6 wow zoomIn" data-wow-duration="700ms" data-wow-delay="350ms">
                         <aside class="widget">
                             <h3 class="widget-title">WHO WE ARE</h3>
-                            <p>Commercial Interior Designers</p>
-                            <p>Corporate Interior Designers</p>
-                                <p>Retail Interior Designers </p>
-                            <p>Interior Design Consultalt</p>
+                            <h2>Commercial Interior Designers</h2>
+                            <h2>Corporate Interior Designers</h2>
+                                <h2>Retail Interior Designers </h2>
+                            <h2>Interior Design Consultant</h2>
                         </aside>
                     </div>
                     <div class="clearfix hidden-lg hidden-sm"></div>
@@ -738,7 +738,7 @@
                             <div class="address">
                                 <div class="singleAdds">
                                     <img src="images/message_icon.png" alt="message icon">
-                                    <a href="#">sanat@interioroptions.in</a>
+                                    <a href="mailto:sanat@interioroptions.in">sanat@interioroptions.in</a>
                                 </div>
                                 <div class="singleAdds">
                                     <img src="images/phone_icon.png" alt="phone icon">
