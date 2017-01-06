@@ -125,7 +125,7 @@
 																<input name="name" type="text" class="required custom-lineheight" id="name" placeholder="Full Name">
 														</div>
 														<div class="col-sm-12 commonfield uncommon">
-																<input name="email" type="text" class="required custom-lineheight" id="email" placeholder="Email Id">
+																<input name="email" type="email" class="required custom-lineheight" id="email" placeholder="Email Id">
 														</div>
 														<div class="col-sm-12 commonfield uncommon">
 																<input name="number" type="text" class="required custom-lineheight" id="phone" placeholder="Phone Number">
