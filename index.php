@@ -53,12 +53,12 @@
             <div class="headerFix">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-lg-3 col-sm-1 col-md-3">
+                        <div class="col-lg-3 col-sm-12 col-md-3">
                             <div class="logo">
                                 <a href="#"><img src="images/logo.png" alt="logo"></a>
                             </div>
                         </div>
-                        <div class="col-lg-9 col-sm-11 col-md-9">
+                        <div class="col-lg-9 col-sm-12 col-md-9">
                             <nav class="navMenu">
                                 <!-- Start mobileMenu -->
                                 <div class="moblieMenu hidden-lg hidden-sm hidden-md">
@@ -73,8 +73,10 @@
                                     <li><a href="#portfolio">Portfolio</a></li>
                                     <li><a href="#services">Services</a></li>
                                     <li><a href="#contact">Contact</a></li>
-																	  <li><a href="#" class="nav-phone hidden-xs">+91 9717533553</a></li>
-                                    <li><a href="tel:09717533553" class="visible-xs">+91 9717533553</a></li>
+                                    
+								 <li class="hidden-xs"><a href="#" class="nav-phone">+91 9717533553</a></li>
+                                     <li class="visible-xs"><a href="tel:09717533553">+91 9717533553</a></li>
+
 																	  <li><a href="#" class="nav-btn" data-toggle="modal" data-target="#myModal">Inquire Now</a></li>
                                     <!--<li> <button type="button" class="btn nav-btn " data-toggle="modal" data-target="#myModal">Open Modal</button></li>-->
 
@@ -101,7 +103,7 @@
 									<!-- LAYERS -->
 
 									<!-- LAYER NR. 1 -->
-									<div class="tp-caption tp-resizeme first-layer" data-x="['left','left','center','center']" data-hoffset="[-105','-26','-26','-140']" data-y="['top','top','top','top']" data-voffset="['280','389','60','0']" data-width="none" data-height="none" data-whitespace="wrap" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:1000;e:Power4.easeOut;" data-transform_out="auto:auto;s:700;e:Power2.easeInOut;" data-start="1550" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 17;">
+									<div class="tp-caption tp-resizeme first-layer" data-x="['left','left','center','center']" data-hoffset="[-105','-26','-230','-140']" data-y="['top','top','top','top']" data-voffset="['280','389','160','0']" data-width="none" data-height="none" data-whitespace="wrap" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:1000;e:Power4.easeOut;" data-transform_out="auto:auto;s:700;e:Power2.easeInOut;" data-start="1550" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 17;">
 										<div class="sl1Con header-boxed">
 											<h2><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;12 Years <br>
                                                 <i class="fa fa-file-archive-o" aria-hidden="true"></i>&nbsp;200 Projects <br>
@@ -113,7 +115,7 @@
 									</div>
 
 									<!-- LAYER NR. 2 -->
-									<div class="tp-caption tp-resizeme sfb third-layer" data-x="['right','right','right','center']" data-hoffset="['-110','-100','-100','105px']" data-y="['middle','middle','middle','middle']" data-voffset="['30','90','90','120']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:1000;e:Power4.easeOut;" data-transform_out="auto:auto;s:700;e:Power2.easeInOut;" data-start="1550" data-splitin="none" data-splitout="none" data-responsive_offset="on">
+									<div class="tp-caption tp-resizeme sfb third-layer" data-x="['right','right','center','center']" data-hoffset="['-110','-100','-70','105px']" data-y="['middle','middle','middle','middle']" data-voffset="['30','90','190','120']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:1000;e:Power4.easeOut;" data-transform_out="auto:auto;s:700;e:Power2.easeInOut;" data-start="1550" data-splitin="none" data-splitout="none" data-responsive_offset="on">
 										<div class="sl1Con ct-form">
 											<div class="contactForm text-center">
 												<h3>Inquire Now</h3>
@@ -178,21 +180,21 @@
         <section class="commonSection ServiceSection">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-sm-12 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
+                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
                         <div class="iconBox_01 text-center serv1">
                             <img src="images/icons/s6.png" alt="Impeccable services">
                             <h3>Impeccable Services</h3>
-                            <p>We offer services that are highly commended by our patrons. Our company focuses on client satisfaction and our team of designers strive to meet your expectations. The entire process of creative design is carried out by commercial designers who are thoroughly experienced in the domain of commercial interior designing. </p>
+                            <p>We offer services that are highly commended by our patrons. Our company focuses on <b>client satisfaction </b>and our team of designers strive to meet your expectations. The entire process of creative design is carried out by commercial designers who are thoroughly experienced in the domain of commercial interior designing. </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-12 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="350ms">
+                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="350ms">
                         <div class="iconBox_01 text-center serv1">
                             <img src="images/icons/s5.png" alt="Expertise and Experience">
                             <h3>Expertise and Experience </h3>
                             <p>We bring you the designs that emanate from the collective skill and years of experience of our commercial interior designers. Our designs have been widely recognized by elite brands as well as the industry. We provide you nothing but the best to get a wow each time from our clients. </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-12 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="400ms">
+                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="400ms">
                         <div class="iconBox_01 text-center serv1">
                             <img src="images/icons/s4.png"  alt="Versatility">
                             <h3>Versatility </h3>
@@ -200,21 +202,21 @@
                         </div>
                     </div>
                     <div class="clearfix"></div>
-                    <div class="col-lg-4 col-sm-12 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="450ms">
+                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="450ms">
                         <div class="iconBox_01 text-center serv1">
                             <img src="images/icons/s3.png" alt="Innovative & top-notch designs">
                             <h3>Innovative &amp; top-notch designs</h3>
                             <p>Our innovation coupled with the zeal of creating top-notch designs is what makes us different. This simple motto is what keeps our clients happy and make them come back for more. </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-12 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="500ms">
+                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="500ms">
                         <div class="iconBox_01 text-center serv1">
                             <img src="images/icons/s2.png" alt="Creative &amp; passionate workforce">
                             <h3>Creative &amp; passionate workforce</h3>
                             <p>We have some very talented, inventive, imaginative and experienced individuals who work as a team in accordance with the requirement of the client. They have exposure of numerous successful projects and they simply excel at their work. We are ready to work for you anytime. </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-12 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="500ms">
+                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="500ms">
                         <div class="iconBox_01 text-center serv1 more-box">
                             <a href="#" class="btn more-services" data-toggle="modal" data-target="#myModal">lets get started</a>
                         </div>
@@ -243,7 +245,7 @@
                                     <div class="sbHover">
                                         <a class="hoverIcons" class="example-image-link" href="images/works/i3.jpg" data-lightbox="example-1">
                                            	<i class="fa fa-2x fa-search-plus"></i>
-                                            <h5>The Singer</h5>
+                                            <h5>View</h5>
                                         </a>
                                     </div>
                                 </div>
@@ -252,7 +254,7 @@
                                     <div class="sbHover">
                                         <a class="hoverIcons" class="example-image-link" href="images/works/i6.jpg" data-lightbox="example-1">
                                            	<i class="fa fa-2x fa-search-plus"></i>
-                                            <h5>The Singer</h5>
+                                            <h5>View</h5>
                                         </a>
                                     </div>
                                 </div>
@@ -263,7 +265,7 @@
                                     <div class="sbHover">
                                         <a class="hoverIcons" class="example-image-link" href="images/works/i5.jpg" data-lightbox="example-1">
                                            	<i class="fa fa-2x fa-search-plus"></i>
-                                            <h5>The Singer</h5>
+                                            <h5>View</h5>
                                         </a>
                                     </div>
                                 </div>
@@ -272,7 +274,7 @@
                                     <div class="sbHover">
                                         <a class="hoverIcons" class="example-image-link" href="images/works/i7.jpg" data-lightbox="example-1">
                                            	<i class="fa fa-2x fa-search-plus"></i>
-                                            <h5>The Singer</h5>
+                                            <h5>View</h5>
                                         </a>
                                     </div>
                                 </div>
@@ -327,7 +329,7 @@
                 </div>
                 <div class="row">
                     <div class="newsWrap">
-                        <div class="col-sm-3 wow fadeInUp feat-work-box" data-wow-duration="700ms" data-wow-delay="300ms">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 wow fadeInUp feat-work-box" data-wow-duration="700ms" data-wow-delay="300ms">
                             <div class="singleNews">
                                 <div class="latestnwesThumb">
                                     <img src="images/project/f1.jpg" alt="">
@@ -342,7 +344,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-3 wow fadeInUp feat-work-box" data-wow-duration="700ms" data-wow-delay="350ms">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 wow fadeInUp feat-work-box" data-wow-duration="700ms" data-wow-delay="350ms">
                             <div class="singleNews">
                                 <div class="latestnwesThumb">
                                     <img src="images/project/f2.jpg" alt="project">
@@ -374,7 +376,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-3 wow fadeInUp feat-work-box" data-wow-duration="700ms" data-wow-delay="350ms">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 wow fadeInUp feat-work-box" data-wow-duration="700ms" data-wow-delay="350ms">
                             <div class="singleNews">
                                 <div class="latestnwesThumb">
                                     <img src="images/firefighting.png" alt="project">
@@ -603,39 +605,36 @@
                                 <div class="item active">
                                     <div class="singleTestimonial text-center">
                                         <div class="author_info">
-                                           	<img src="images/client-pic.png" alt="client-pic">
-                                            <h3>Mike Adams</h3>
-                                            <span>Sway Ltd.</span>
+                                           	<img src="images/ClineLogo/anup.jpg" alt="client-pic">
+                                            <h3>Anup Pabby</h3>
+                                            <span>MD - Deutsch Bank</span>
                                         </div>
                                         <p>
-                                            Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                                            eaque ipsa quae ab illo inventore sed quia consequuntur magni dolores eos qui ratione bibendum elit.
+                                           We are delighted with our new offices.Interior Options Team did a terrific job interpreting our vision for collaborative space. They worked with us to make cost effective choices and yet retain a highly functional and inviting work environment. 
                                         </p>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="singleTestimonial text-center">
                                         <div class="author_info">
-                                           	<img src="images/client-pic.png" alt="client-pic">
-                                            <h3>Mike Adams</h3>
-                                            <span>Sway Ltd.</span>
+                                           	<img src="images/ClineLogo/premdeshpandey.jpg" alt="client-pic">
+                                            <h3>Prem Deshpandey</h3>
+                                            <span>Project Manager - Future Lifestyle</span>
                                         </div>
                                         <p>
-                                            Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                                            eaque ipsa quae ab illo inventore sed quia consequuntur magni dolores eos qui ratione bibendum elit.
+                                            We wanted to create a great place to work that also showcases our talents. This top quality accommodation provides it. Our people are proud of it.
                                         </p>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="singleTestimonial text-center">
                                         <div class="author_info">
-                                           	<img src="images/client-pic.png" alt="client-pic">
-                                            <h3>Mike Adams</h3>
-                                            <span>Sway Ltd.</span>
+                                           	<img src="images/ClineLogo/jagjeet.jpg" alt="client-pic">
+                                            <h3>Jagjeet Singh</h3>
+                                            <span>Project Manager - Aditya Birla Fashion &amp; Retail Ltd.</span>
                                         </div>
                                         <p>
-                                            Perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                                            eaque ipsa quae ab illo inventore sed quia consequuntur magni dolores eos qui ratione bibendum elit.
+                                            We have created an environment that everyone will enjoy working in.You have a great team with excellent design capability and a strong breadth of skills in delivering projects. Projects are well managed with great transparency of costs.
                                         </p>
                                     </div>
                                 </div>
@@ -705,7 +704,7 @@
         <footer class="footerSection">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 col-sm-6 wow zoomIn" data-wow-duration="700ms" data-wow-delay="300ms">
+                    <div class="col-lg-3 col-sm-6 wow zoomIn p-r-80" data-wow-duration="700ms" data-wow-delay="300ms">
                         <aside class="widget">
                             <div class="about-footer">
                                 <img src="images/logo.png" alt="logo">
@@ -720,13 +719,13 @@
                             </div>
                         </aside>
                     </div>
-                    <div class="col-lg-2 col-sm-6 wow zoomIn" data-wow-duration="700ms" data-wow-delay="350ms">
+                    <div class="col-lg-3 col-sm-6 wow zoomIn" data-wow-duration="700ms" data-wow-delay="350ms">
                         <aside class="widget">
                             <h3 class="widget-title">WHO WE ARE</h3>
-                            <p>Commercial Interior Designers</p>
-                            <p>Corporate Interior Designers</p>
-                                <p>Retail Interior Designers </p>
-                            <p>Interior Design Consultalt</p>
+                            <h1>Commercial Interior Designers</h1>
+                            <h2>Corporate Interior Designers</h2>
+                                <h2>Retail Interior Designers </h2>
+                            <h2>Interior Design Consultant</h2>
                         </aside>
                     </div>
                     <div class="clearfix hidden-lg hidden-sm"></div>
@@ -736,7 +735,7 @@
                             <div class="address">
                                 <div class="singleAdds">
                                     <img src="images/message_icon.png" alt="message icon">
-                                    <a href="#">sanat@interioroptions.in</a>
+                                    <a href="mailto:sanat@interioroptions.in">sanat@interioroptions.in</a>
                                 </div>
                                 <div class="singleAdds">
                                     <img src="images/phone_icon.png" alt="phone icon">
@@ -850,5 +849,16 @@
             });
         </script>
 
+    <script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-89859208-1', 'auto');
+ ga('send', 'pageview');
+
+</script>
+    
     </body>
 </html>

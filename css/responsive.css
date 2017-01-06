@@ -16,6 +16,39 @@
    .bx-wrapper .bx-controls-direction a.bx-next {
       top: -138px;
    }
+    
+    .first-layer {
+		right: 0;
+		left: 0;
+		display: block;
+	}
+	.sl1Con.header-boxed {
+		border: none;
+	}
+	.sl1Con.header-boxed h2 {
+		font-size: 24px;
+		float: left;
+	}
+	.sl1Con.header-boxed p {
+		float: left;
+	}
+	.logo {
+    text-align: center;
+	}
+	.sl1Con.header-boxed p.margin-0 {
+		margin-top: 3px !important;
+	}
+	.sl1Con.ct-form .contactForm {
+		width: 500px !important;
+    margin: 0px 30px;
+	}
+   .textAreaField button{
+      height:auto;
+   }
+	.ServiceSection .clearfix {
+		display: none;
+	}
+	
 }
 
 @media(min-width:768px) and (max-width:990px) {
@@ -638,7 +671,7 @@
 		font-size: 24px;
 	}
 	.sl1Con.header-boxed p.margin-0 {
-		margin: -50px !important;
+		margin: -50px ;
 	}
 	.sl1Con.ct-form .contactForm {
 		width: 243px;

@@ -4173,3 +4173,28 @@ a.showit:hover {
     -moz-align-items: center;
     align-items: center;
 }
+
+/** Custom css **/
+.custom-lineheight {line-height: 16px;}
+
+.p-r-80{
+    padding-right: 80px !important;
+}
+
+aside.widget h2, aside.widget h1{
+    line-height: 25px;
+    margin-bottom: 0;
+    font-size: 15px;
+    color: #fff;
+    font-family: 'fontscorecomttwcenmt', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    
+}
+
+.author_info img{
+    height: 146px;
+    width: 146px;
+    border-radius: 50%;
+}
