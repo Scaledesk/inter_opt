@@ -528,7 +528,7 @@
                     {
                          console.log(data);
                         $("#con_submit").html('Done!');
-                         window.location.replace("http://localhost/inter_opt/thankyou.html");
+                         window.location.replace("http://interioroptions.in/commercial/thankyou.html");
                         $("#contactForm input, #contactForm textarea").val('');
                     }
                 });
@@ -589,7 +589,7 @@
                     {
                          console.log(data);
                         $("#modal_submit").html('Done!');
-                         window.location.replace("http://localhost/inter_opt/thankyou.html");
+                         window.location.replace("http://interioroptions.in/commercial/thankyou.html");
                         $("#modalcontactForm input, #modalcontactForm textarea").val('');
                     }
                 });
@@ -646,7 +646,7 @@
                     {
                          console.log(data);
                         $("#footer_submit").html('Done!');
-                        window.location.replace("http://localhost/inter_opt/thankyou.html");
+                        window.location.replace("http://interioroptions.in/commercial/thankyou.html");
                         $("#footercontactForm input, #footercontactForm textarea").val('');
                     }
                 });
