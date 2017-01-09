@@ -1,345 +1,509 @@
-   <html><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
-<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-<title>Zolo</title>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
 
-<style type="text/css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+	<title>*|MC:SUBJECT|*</title>
 
-[style*="Open Sans"] {font-family: "Open Sans", Arial, sans-serif !important}
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,700,500' rel='stylesheet' type='text/css'>
 
-div, p, a, li, td { -webkit-text-size-adjust:none; }
+	<style type="text/css">
 
-*{-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;}
+	.ReadMsgBody { width: 100%; background-color: #ffffff; }
+    .ExternalClass { width: 100%; background-color: #ffffff; }
+    .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; }
+	html { width: 100%; }
+	body { -webkit-text-size-adjust: none; -ms-text-size-adjust: none; margin: 0; padding: 0; }
+	table { border-spacing: 0; border-collapse: collapse; }
+	table td { border-collapse: collapse; }
+	.yshortcuts a { border-bottom: none !important; }
+	img { display: block !important; }
+	a { text-decoration: none; color: #e94654; }
 
-.ReadMsgBody
-{width: 100%; background-color: #ffffff;}
-.ExternalClass
-{width: 100%; background-color: #ffffff;}
-body{width: 100%; height: 100%; background-color: #ffffff; margin:0; padding:0; -webkit-font-smoothing: antialiased;}
-html{width: 100%; background-color: #ffffff;}
+	/* Media Queries */
 
-
-p {padding: 0!important; margin-top: 0!important; margin-right: 0!important; margin-bottom: 0!important; margin-left: 0!important; }
-
-.hover:hover {opacity:0.85;filter:alpha(opacity=85);}
-.underline:hover {text-decoration: underline!important;}
-
-.jump:hover {opacity:0.75;filter:alpha(opacity=75);padding-top: 10px!important;}
-
-a.rotator img {-webkit-transition: all 1s ease-in-out; -moz-transition: all 1s ease-in-out; -o-transition: all 1s ease-in-out; -ms-transition: all 1s ease-in-out; }
-
-a.rotator img:hover {-webkit-transform: rotate(360deg); -moz-transform: rotate(360deg); -o-transform: rotate(360deg); -ms-transform: rotate(360deg); }
-
-@-webkit-keyframes bounceIn { 0% {opacity: 0;-webkit-transform: scale(.3);transform: scale(.3);}50% {opacity: 1;-webkit-transform: scale(1.05);transform: scale(1.05);}70% {-webkit-transform: scale(.9);transform: scale(.9);}100% {opacity: 1;-webkit-transform: scale(1);transform: scale(1);}}
-
-@keyframes bounceIn {0% {opacity: 0;-webkit-transform: scale(.3);-ms-transform: scale(.3);transform: scale(.3);}50% {opacity: 1;-webkit-transform: scale(1.05);-ms-transform: scale(1.05);transform: scale(1.05);}70% {-webkit-transform: scale(.9);-ms-transform: scale(.9);transform: scale(.9);}100% {opacity: 1;-webkit-transform: scale(1);-ms-transform: scale(1);transform: scale(1);}}
-
-#box {-webkit-animation: bounceIn 2s; -moz-animation: bounceIn 2s; -o-animation: bounceIn 2s; animation: bounceIn 2s; }
-
-@-webkit-keyframes bounceIn {0% {opacity: 0;-webkit-transform: scale(.3);transform: scale(.3);}50% {opacity: 1;-webkit-transform: scale(1.05);transform: scale(1.05);}70% {-webkit-transform: scale(.9);transform: scale(.9);}100% {opacity: 1;-webkit-transform: scale(1);transform: scale(1);}}
-
-@keyframes bounceIn {0% {opacity: 0;-webkit-transform: scale(.3);-ms-transform: scale(.3);transform: scale(.3);}50% {opacity: 1;-webkit-transform: scale(1.05);-ms-transform: scale(1.05);transform: scale(1.05);}70% {-webkit-transform: scale(.9);-ms-transform: scale(.9);transform: scale(.9);}100% {opacity: 1;-webkit-transform: scale(1);-ms-transform: scale(1);transform: scale(1);}}
-
-#box2 { -webkit-animation: bounceIn 1.5s; -moz-animation: bounceIn 1.5s; -o-animation: bounceIn 1.5s; animation: bounceIn 1.5s; }
-
-@-webkit-keyframes bounceIn { 0% {opacity: 0;-webkit-transform: scale(.3);transform: scale(.3);}50% {opacity: 1;-webkit-transform: scale(1.05);transform: scale(1.05);}70% {-webkit-transform: scale(.9);transform: scale(.9);}100% {opacity: 1;-webkit-transform: scale(1);transform: scale(1);}}
-
-@keyframes bounceIn {0% {opacity: 0;-webkit-transform: scale(.3);-ms-transform: scale(.3);transform: scale(.3);}50% {opacity: 1;-webkit-transform: scale(1.05);-ms-transform: scale(1.05);transform: scale(1.05);}70% {-webkit-transform: scale(.9);-ms-transform: scale(.9);transform: scale(.9);}100% {opacity: 1;-webkit-transform: scale(1);-ms-transform: scale(1);transform: scale(1);}}
-
-#box3 {-webkit-animation: bounceIn 2s; -moz-animation: bounceIn 2s; -o-animation: bounceIn 2s; animation: bounceIn 2s; }
-
-@-webkit-keyframes bounceIn {0% {opacity: 0;-webkit-transform: scale(.3);transform: scale(.3);}50% {opacity: 1;-webkit-transform: scale(1.05);transform: scale(1.05);}70% {-webkit-transform: scale(.9);transform: scale(.9);}100% {opacity: 1;-webkit-transform: scale(1);transform: scale(1);}}
-
-@keyframes bounceIn {0% {opacity: 0;-webkit-transform: scale(.3);-ms-transform: scale(.3);transform: scale(.3);}50% {opacity: 1;-webkit-transform: scale(1.05);-ms-transform: scale(1.05);transform: scale(1.05);}70% {-webkit-transform: scale(.9);-ms-transform: scale(.9);transform: scale(.9);}100% {opacity: 1;-webkit-transform: scale(1);-ms-transform: scale(1);transform: scale(1);}}
-
-#box4 { -webkit-animation: bounceIn 1.5s; -moz-animation: bounceIn 1.5s; -o-animation: bounceIn 1.5s; animation: bounceIn 1.5s; }
-
-#logo img {width: 125px; height: auto;}
-#logo_footer img {width: 100px; height: auto;}
-.image175 img {width: 175px; height: auto;}
-.icon34 img {width: 34px; height: auto;}
-#icon13 img {width: 13px; height: auto;}
-.icon30 img {width: 30px; height: auto;}
-.image191 img {width: 191px; height: auto; border-radius: 4px;}
-.avatar83 img {width: 83px; height: auto;}
-.image194 img {width: 194px; height: auto; border-radius: 4px;}
-.icon37 img {width: 37px; height: auto;}
-.image400 img {width: 400px; height: auto;}
-.image600 img {width: 600px; height: auto; border-radius: 4px;}
-.image185 img {width: 185px; height: auto; border-radius: 4px;}
-.image352 img {width: 352px; height: auto;}
-.icons17 img {width: 17px; height: auto;}
-
-@media only screen and (max-width: 640px){
-		body{width:auto!important;}
-		table[class=full] {width: 100%!important; clear: both; }
-		table[class=mobile] {width: 100%!important; padding-left: 20px; padding-right: 20px; clear: both; }
-		table[class=fullCenter] {width: 100%!important; text-align: center!important; clear: both; }
-		td[class=fullCenter] {width: 100%!important; text-align: center!important; clear: both; }
-		*[class=erase] {display: none;}
-		*[class=buttonScale] {float: none!important; text-align: center!important; display: inline-block!important; clear: both;}
-		.[class=textLeft] {text-align: left!important; float: left!important;}
-		.h10 {height: 10px!important;}
-		table[class=scale33] {width: 30%!important;}
-		table[class=scale33Right] {width: 30%!important;}
-		table[class=scale33_2] {width: 32%!important;}
-		table[class=scale33Right_2] {width: 32%!important;}
-		table[class=scale50] {width: 46%!important;}
-		table[class=scale50Right] {width: 46%!important;}
-		.image185 img {width: 100%!important; height: auto;}
-		.image194 img {width: 100%!important; height: auto;}
-		.pad {width: 100%!important; padding-left: 15px!important; padding-right: 15px!important;}
-		table[class=w10] {width: 5%!important; }
-		table[class=w5] {width: 2%!important; }
-		.image600 img {width: 100%!important; height: auto!important; border-radius: 4px;}
-		.image400 img {width: 100%!important; height: auto;}
-		.image352 img {width: 100%!important; height: auto;}
-		.h40 {height: 40px!important;}
-		.h30 {height: 30px!important;}
-		td[class=pad20] {width: 100%!important; padding-left: 20px!important; padding-right: 20px!important; clear: both; }
+	@media only screen and (max-width: 640px) {
+		body { width: auto !important; }
+		table[class="table600"] { width: 450px !important; }
+		table[class="table-container"] { width: 90% !important; }
+		table[class="container2-2"] { width: 47% !important; text-align: left !important; }
+		table[class="full-width"] { width: 100% !important; text-align: center !important; }
+		img[class="img-full"] { width: 100% !important; height: auto !important; }
 }
 
-@media only screen and (max-width: 479px){
-		body{width:auto!important;}
-		table[class=full] {width: 100%!important; clear: both; }
-		table[class=mobile] {width: 100%!important; padding-left: 20px; padding-right: 20px; clear: both; }
-		table[class=fullCenter] {width: 100%!important; text-align: center!important; clear: both; }
-		td[class=fullCenter] {width: 100%!important; text-align: center!important; clear: both; }
-		*[class=erase] {display: none;}
-		*[class=buttonScale] {float: none!important; text-align: center!important; display: inline-block!important; clear: both;}
-		.h10 {height: 10px!important;}
-		table[class=scale33] {width: 100%!important;}
-		table[class=scale33Right] {width: 100%!important;}
-		table[class=scale33_2] {width: 100%!important;}
-		table[class=scale33Right_2] {width: 100%!important;}
-		table[class=scale50] {width: 100%!important;}
-		table[class=scale50Right] {width: 100%!important;}
-		.image185 img {width: 100%!important; height: auto;}
-		.image194 img {width: 100%!important; height: auto;}
-		.pad {width: 100%!important; padding-left: 15px!important; padding-right: 15px!important;}
-		table[class=w10] {width: 100%;}
-		.image600 img {width: 100%!important; height: auto!important; border-radius: 4px;}
-		.image400 img {width: 100%!important; height: auto;}
-		.image352 img {width: 100%!important; height: auto;}
-		.h40 {height: 40px!important;}
-		.h30 {height: 30px!important;}
-		td[class=pad20] {width: 100%!important; padding-left: 20px!important; padding-right: 20px!important; clear: both; }
+	@media only screen and (max-width: 479px) {
+		body { width: auto !important; }
+		table[class="table600"] { width: 290px !important; }
+		table[class="table-container"] { width: 82% !important; }
+		table[class="container2-2"] { width: 100% !important; text-align: left !important; }
+		table[class="full-width"] { width: 100% !important; text-align: center !important; }
+		img[class="img-full"] { width: 100% !important; }
 }
 
-.space{
-	margin: 10px 0 !important;
-}
-.space_1{
-	margin: 20px 0 !important;
-}
-.space_3{
-	margin: 50px 0 30px 0!important;
-	overflow: hidden;
-}
-.space_2{
-	margin: 0.2px 0 !important;
-}
-</style>
+	</style>
 
 </head>
-<body style="margin: 0; padding: 0;">
+
+<body marginwidth="0" marginheight="0" style="margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; width: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;" offset="0" topmargin="0" leftmargin="0">
+
+	<!-- MAIN A -->
+	<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<!-- Background -->
+			<td align="center" bgcolor="#333333" background="img/bg-main-a.jpg" style="background-size: cover; background-position: center;">
+				<table class="table600" width="600" border="0" cellpadding="0" cellspacing="0">
+
+					<tr>
+						<td height="25" style="font-size: 1px; line-height: 25px;">&nbsp;</td>
+					</tr>
+
+					<tr>
+						<td>
+
+							<table class="full-width" width="110" align="CENTER" border="0" cellpadding="0" cellspacing="0">
+    							<tr>
+									<td align="center">
+								<img mc:edit="main a 1" src="http://interioroptions.in/commercial/mailtemplates/img/logo.png" alt="logo" width="140" height="24">
+									</td>
+    							</tr>
+	    				</table>
 
 
+    					</td>
+    				</tr>
 
 
+					<!-- Underline -->
+					<tr>
+						<td align="center">
+							<table width="75" border="0" cellpadding="0" cellspacing="0">
+							<!-- Edit Underline -->
+
+							</table>
+						</td>
+					</tr>
+					<!-- End Underline -->
+
+					<tr>
+						<td height="30" style="font-size: 1px; line-height: 30px;">&nbsp;</td>
+					</tr>
+
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!-- END MAIN A -->
 
 
+	<!-- HEADLINE AND CONTENT -->
+	<table mc:repeatable="layout" mc:hideable mc:variant="headline" width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td align="center" bgcolor="#ffffff">
+				<table class="table600" width="600" border="0" cellpadding="0" cellspacing="0">
 
-<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
-	<tbody><tr>
-		<td width="100%" valign="top" bgcolor="#ffffff" align="center">
+					<tr>
+						<td height="75" style="font-size: 1px; line-height: 75px;">&nbsp;</td>
+					</tr>
 
+					<tr>
+						<td mc:edit="headline 1 1" align="center" style="font-family: 'Raleway', sans-serif; font-size: 32px; font-weight: 700; color: #333333; letter-spacing: 4px; line-height: 36px;">
+							THANKYOU FOR CHOOSING INTERIOR OPTIONS
+						</td>
+					</tr>
 
-		
-			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
-				<tbody><tr>
-					<td align="center">
+					<tr>
+						<td height="20" style="font-size: 1px; line-height: 20px;">&nbsp;</td>
+					</tr>
 
-						
-						<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
-							<tbody><tr>
-								<td width="100%" height="50"></td>
-							</tr>
-						</tbody></table>
-						<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
-							<tbody><tr>
-								<td width="100%" align="center">
+					<tr>
+						<td mc:edit="headline 1 2" align="center" style="font-family: 'Raleway', sans-serif; font-size: 15px; font-weight: 500; color: #333333; letter-spacing: 2px; line-height: 24px;">
+							Creative Company
+						</td>
+					</tr>
 
-									
-									<table width="600" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter">
-										<tbody><tr>
-											<td width="100%" class="image600">
-												<a href="#" style="text-decoration: none;"><img src="https://s3-ap-southeast-1.amazonaws.com/zolo/zolo_homepage_vendors/final-1.jpg" alt="" border="0" width="600" height="auto" class="hover" style="border-radius: 4px;"></a>
-											</td>
-										</tr>
-										<tr>
-<td width="100%" height="25" class="h10"><p class="space" style="
- text-align: center; font-family: Helvetica, Arial, sans-serif, Open Sans; font-size: 20px; color: #808080;
-  line-height: 25px;font-weight:700;">Scaledesk Web Studio Pvt. Ltd.</p></td>
-										</tr>
+					<!-- Underline -->
+					<tr>
+						<td align="center">
+							<table width="300" border="0" cellpadding="0" cellspacing="0">
+							<!-- Edit Underline -->
+								<tr>
+									<td height="25" style="border-bottom: 1px solid #e94654;"></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<!-- End Underline -->
 
+					<tr>
+						<td height="25" style="font-size: 1px; line-height: 25px;">&nbsp;</td>
+					</tr>
 
-										<tr>
+					<tr>
+						<td mc:edit="headline 1 3" align="center" style="font-family: 'Raleway', sans-serif; font-size: 13px; font-weight: 400; color: #8f96a1; line-height: 24px;">
+							We’re the one stop solution provider for all commercial interior designing needs.  </td>
+					</tr>
 
+					<tr>
+						<td mc:edit="headline 1 3" align="center" style="font-family: 'Raleway', sans-serif; font-size: 13px; font-weight: 400; color: #8f96a1; line-height: 24px;">
+							Your query is important to us, one of our interior expert will get back to you shortly. Please feel free to connect with us at +91- 971753355 or email us at
+					</tr>
+					<tr>
+						<td mc:edit="headline 1 3" align="center" style="font-family: 'Raleway', sans-serif; font-size: 13px; font-weight: 400; color: #8f96a1; line-height: 24px;">
+							<U>sanat@interioroptions.in</U>
+					</tr>
 
-										</tr>
-										<tr>
-											<td valign="middle" width="100%" style="text-align: left; font-family: Helvetica, Arial, sans-serif, Open Sans; font-size: 14px; color: #808080; line-height: 22px; font-weight: 400;">
-												<p>Hello,</p>
+					<tr>
+						<td height="75" style="font-size: 1px; line-height: 75px;">&nbsp;</td>
+					</tr>
 
-<p class="space"><b>Thank You</b> for contacting Scaledesk Web Studio. We will get back to you very soon. </p><p class="space_2">If you have any urgent requirements regarding Web or Mobile app design and development, you can call us at:</p>
-
-<p class="space_2">Landline : <strong><a style="text-decoration: none;" href="tel:01204162705">+91 120 4162705 </a></strong>(10 AM to 8 PM)</p><p class="space_2">Mobile : <strong><a style="text-decoration: none;" href="tel:8650265445">+91-8650265445</a></strong></p>
-											</td></tr></td
-										</tr>
-										<tr>
-											<td width="100%" height="15"></td>
-										</tr>
-
-									
-										<tr>
-											
-
-										</tr>
-
-										
-										<tr>
-											<td width="100%" height="70">
-
-<p class="space_1" style="margin-bottom:0px !important; text-align: left; font-family: Helvetica, Arial, sans-serif, Open Sans; font-size: 16px; color: #808080; line-height: 15px; font-weight: 400; font-weight:600;">Thanks &amp; Regards,</p>
-<p class="space" style="text-align: left; font-family: Helvetica, Arial, sans-serif, Open Sans; font-size: 16px; color: #808080; line-height: 20px;font-weight:600;">Team Scaledesk</p>
-</td>
-										</tr>
-									</tbody></table>
-								</td>
-							</tr>
-
-						</tbody></table>
-					</td>
-				</tr>
-			</tbody></table>
-
-		</td>
-	</tr>
-</tbody></table>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!-- END HEADLINE AND CONTENT -->
 
 
+	<!-- SOCIAL NETWORK -->
+	<!--<table mc:repeatable="layout" mc:hideable mc:variant="social network" width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td align="center" bgcolor="#ffffff">
+				<table class="table600" width="600" border="0" cellpadding="0" cellspacing="0">
 
+					<tr>
+						<td height="50" style="font-size: 1px; line-height: 50px;">&nbsp;</td>
+					</tr>
 
+					<tr>
+						<td>
 
+							<table class="container2-2" width="287" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
 
-<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full" style="width:100%!important">
-	<tbody><tr>
-		<td align="center" width="100%" valign="top" bgcolor="#536373">
+								<tr>
+									<td>
 
-			
-			<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
-				<tbody><tr>
-					<td align="center">
+										<table class="full-width" width="132" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
 
-						
-						<table width="100%" border="0" cellpadding="0" cellspacing="0" class="full">
-							<tbody><tr>
-								<td width="100%" height="10"></td>
-							</tr>
-							</tbody></table>
+											<tr>
+												<td>
 
-						<table width="150" border="0" cellpadding="0" cellspacing="0" align="center" class="full" style="margin-left:0; margin-right:0;">
-							<tbody><tr>
-								<td width="100%" align="center">
+													<table class="full-width" width="32" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+														<tr>
+															<td align="center">
+																<img mc:edit="social 1" src="img/icon32-1.png" alt="icon" width="32" height="32">
+															</td>
+														</tr>
+													</table>
 
-									
-									<table width="100" border="0" cellpadding="0" cellspacing="0" align="left" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter">
-										<tbody><tr>
-											<td height="" valign="middle" width="100%" style="text-align: left;" class="fullCenter" id="">
-												<a href="#"></a>
+													&lt;!&ndash; SPACE &ndash;&gt;
+														<table class="full-width" width="1" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" >
+															<tr>
+																<td width="1" height="30" style="font-size: 30px; line-height: 30px;"></td>
+															</tr>
+														</table>
+													&lt;!&ndash; END SPACE &ndash;&gt;
 
-											</td>
-										</tr>
-										</tbody></table>
+													<table class="full-width" width="80" align="right" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+														<tr>
+															<td mc:edit="social 2" align="center" style="font-family: 'Raleway', sans-serif; font-size: 13px; font-weight: 700; color: #333333; line-height: 32px; letter-spacing: 1px;">
+																FACEBOOK
+															</td>
+														</tr>
+													</table>
 
-
-
-								</td>
-
-
-
-
-
-
-							</tr>
-							</tbody></table><table width="600" border="0" cellpadding="0" cellspacing="0" align="center" class="full" style="margin-left:0; margin-right:0;">
-						<tbody><tr>
-							<td width="100%" align="center">
-								<table width="200" border="0" cellpadding="0" cellspacing="0" align="right" style="text-align: right;border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;" class="buttonScale">
-									<tbody>
-									<tr>
-										<td>
-											<ul class="f-nav" style="display: flex;margin-bottom: 0px;">
-												<li style="list-style-type: none;
-			display: inline-block;
-			margin-right: 6px;"><a style="color: #fff;
-			text-decoration: none;font-family: Helvetica, Arial, sans-serif, Open Sans;
-			font-size: 18px;" href="http://www.scaledesk.com/">About Us</a></li>
-
-
-											</ul><table>
-
+												</td>
+											</tr>
 
 										</table>
-										</td>
-									</tr>
 
+										&lt;!&ndash; SPACE &ndash;&gt;
+											<table class="full-width" width="1" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" >
+												<tr>
+													<td width="1" height="30" style="font-size: 30px; line-height: 30px;"></td>
+												</tr>
+											</table>
+										&lt;!&ndash; END SPACE &ndash;&gt;
 
-									</tbody></table>
-								
-								<table width="96" border="0" cellpadding="0" cellspacing="0" align="left" style="text-align: right;border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;" class="buttonScale">
-									<tbody><tr>
-										<td height="45" valign="middle" width="32" align="center" class="" style="text-align: center; ">
-											<a target="_blank" href="https://www.facebook.com/scaledesk/" style="text-decoration: none;"><img src="http://res.cloudinary.com/scaledesk/image/upload/v1459774522/zolo_email_template/facebook-icon.png" width="35" height="35" border="0" class="hover zolo_size" style="margin-right:10px;"></a>
-										</td>
-										<td height="45" valign="middle" width="32" align="center" class="" style="text-align: center;">
-											<a target="_blank" href="https://www.linkedin.com/company/scaledesk-web-studio-pvt--ltd-" style="text-decoration: none;"><img src="http://res.cloudinary.com/scaledesk/image/upload/v1459939720/zolo_email_template/linkedin.png" alt="" border="0" width="35" height="35" style="margin-right:10px;" class="hover zolo_size"></a>
-										</td><td height="45" valign="middle" width="32" align="center" class="" style="text-align: center;">
-										<a target="_blank" href="https://twitter.com/zolo_official" style="text-decoration: none;"></a>
+										<table class="full-width" width="132" align="right" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+
+											<tr>
+												<td>
+
+													<table class="full-width" width="32" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+														<tr>
+															<td align="center">
+																<img mc:edit="social 3" src="img/icon32-2.png" alt="icon" width="32" height="32">
+															</td>
+														</tr>
+													</table>
+
+													&lt;!&ndash; SPACE &ndash;&gt;
+														<table class="full-width" width="1" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" >
+															<tr>
+																<td width="1" height="30" style="font-size: 30px; line-height: 30px;"></td>
+															</tr>
+														</table>
+													&lt;!&ndash; END SPACE &ndash;&gt;
+
+													<table class="full-width" width="80" align="right" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+														<tr>
+															<td mc:edit="social 4" align="center" style="font-family: 'Raleway', sans-serif; font-size: 13px; font-weight: 700; color: #333333; line-height: 32px; letter-spacing: 1px;">
+																GOOGLE+
+															</td>
+														</tr>
+													</table>
+
+												</td>
+											</tr>
+
+										</table>
+
 									</td>
+								</tr>
+
+							</table>
+
+							&lt;!&ndash; SPACE &ndash;&gt;
+								<table width="1" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" >
+									<tr>
+										<td width="1" height="30" style="font-size: 30px; line-height: 30px;"></td>
 									</tr>
-									</tbody></table>
+								</table>
+							&lt;!&ndash; END SPACE &ndash;&gt;
 
-							</td>
+							<table class="container2-2" width="287" align="right" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
 
+								<tr>
+									<td>
 
+										<table class="full-width" width="132" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
 
+											<tr>
+												<td>
 
+													<table class="full-width" width="32" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+														<tr>
+															<td align="center">
+																<img mc:edit="social 5" src="img/icon32-3.png" alt="icon" width="32" height="32">
+															</td>
+														</tr>
+													</table>
 
+													&lt;!&ndash; SPACE &ndash;&gt;
+														<table class="full-width" width="1" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" >
+															<tr>
+																<td width="1" height="30" style="font-size: 30px; line-height: 30px;"></td>
+															</tr>
+														</table>
+													&lt;!&ndash; END SPACE &ndash;&gt;
 
-						</tr>
-						</tbody></table>
+													<table class="full-width" width="80" align="right" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+														<tr>
+															<td mc:edit="social 6" align="center" style="font-family: 'Raleway', sans-serif; font-size: 13px; font-weight: 700; color: #333333; line-height: 32px; letter-spacing: 1px;">
+																PINTEREST
+															</td>
+														</tr>
+													</table>
 
-						
-						<table width="100%" border="0" cellpadding="0" cellspacing="0" class="full">
-							<tbody><tr>
-								<td width="100%" height="10"></td>
-							</tr>
-							</tbody></table>
-						
+												</td>
+											</tr>
 
-					</td>
-				</tr>
-				</tbody></table>
+										</table>
 
+										&lt;!&ndash; SPACE &ndash;&gt;
+											<table class="full-width" width="1" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" >
+												<tr>
+													<td width="1" height="30" style="font-size: 30px; line-height: 30px;"></td>
+												</tr>
+											</table>
+										&lt;!&ndash; END SPACE &ndash;&gt;
 
+										<table class="full-width" width="132" align="right" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
 
+											<tr>
+												<td>
 
-		</td></tr></tbody></table>
+													<table class="full-width" width="32" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+														<tr>
+															<td align="center">
+																<img mc:edit="social 7" src="img/icon32-4.png" alt="icon" width="32" height="32">
+															</td>
+														</tr>
+													</table>
 
-</body></html>
+													&lt;!&ndash; SPACE &ndash;&gt;
+														<table class="full-width" width="1" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" >
+															<tr>
+																<td width="1" height="30" style="font-size: 30px; line-height: 30px;"></td>
+															</tr>
+														</table>
+													&lt;!&ndash; END SPACE &ndash;&gt;
 
+													<table class="full-width" width="80" align="right" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+														<tr>
+															<td mc:edit="social 8" align="center" style="font-family: 'Raleway', sans-serif; font-size: 13px; font-weight: 700; color: #333333; line-height: 32px; letter-spacing: 1px;">
+																TWITTER
+															</td>
+														</tr>
+													</table>
 
-            
+												</td>
+											</tr>
+
+										</table>
+
+									</td>
+								</tr>
+
+							</table>
+
+						</td>
+					</tr>
+
+					<tr>
+						<td height="50" style="font-size: 1px; line-height: 50px;">&nbsp;</td>
+					</tr>
+
+				</table>
+			</td>
+		</tr>
+	</table>
+	--><!-- END SOCIAL NETWORK -->
+
+	<!-- PREFOOTER -->
+	<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<!-- Background -->
+			<td align="center" bgcolor="#191919">
+				<table class="table600" width="600" border="0" cellpadding="0" cellspacing="0">
+
+					<tr>
+						<td height="50" style="font-size: 1px; line-height: 50px;">&nbsp;</td>
+					</tr>
+
+					<tr>
+						<td>
+
+							<table class="container2-2" width="400" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+
+								<tr>
+									<td mc:edit="prefooter 1" align="left" style="font-family: 'Raleway', sans-serif; font-size: 20px; font-weight: 400; color: #ffffff; line-height: 24px;">
+										About Us
+									</td>
+								</tr>
+
+								<tr>
+									<td height="20" style="font-size: 1px; line-height: 20px;">&nbsp;</td>
+								</tr>
+
+								<tr>
+									<td mc:edit="prefooter 2" align="left" style="font-family: 'Raleway', sans-serif; font-size: 13px; font-weight: 400; color: #888896; line-height: 24px;">
+										Interior Options provides the best commercial interior designing services for corporate offices & retail outlets in Delhi, Noida & Gurgaon.</tr>
+
+								<tr>
+									<td height="24" style="font-size: 1px; line-height: 24px;">&nbsp;</td>
+								</tr>
+
+								<tr>
+									<td mc:edit="prefooter 3" align="left" style="font-family: 'Raleway', sans-serif; font-size: 13px; font-weight: 400; color: #e54a39; line-height: 24px;">
+										<a href="*|UNSUB|*" style="color: #e94654; text-decoration: none;">Unsubscribe</a>
+									</td>
+								</tr>
+
+							</table>
+
+							<!-- SPACE -->
+								<table width="1" align="left" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+									<tr>
+										<td width="1" height="30" style="font-size: 30px; line-height: 30px;"></td>
+									</tr>
+								</table>
+							<!-- END SPACE -->
+
+							<table class="container2-2" width="170" align="right" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+
+								<tr>
+									<td mc:edit="prefooter 4" align="left" style="font-family: 'Raleway', sans-serif; font-size: 20px; font-weight: 400; color: #ffffff; line-height: 24px;">
+										Contact Us
+									</td>
+								</tr>
+
+								<tr>
+									<td height="20" style="font-size: 1px; line-height: 20px;">&nbsp;</td>
+								</tr>
+
+								<tr>
+									<td mc:edit="prefooter 5" align="left" style="font-family: 'Raleway', sans-serif; font-size: 13px; font-weight: 400; color: #ffffff; line-height: 24px;">
+										Address :
+									</td>
+								</tr>
+
+								<tr>
+									<td mc:edit="prefooter 6" align="left" style="font-family: 'Raleway', sans-serif; font-size: 13px; font-weight: 400; color: #888896; line-height: 24px;">
+										A-36, Sector-4 Noida 201301, (U.P.)
+									</td>
+								</tr>
+
+								<tr>
+									<td mc:edit="prefooter 7" align="left" style="font-family: 'Raleway', sans-serif; font-size: 13px; font-weight: 400; color: #ffffff; line-height: 24px;">
+										Phone Number and Email :
+									</td>
+								</tr>
+
+								<tr>
+									<td mc:edit="prefooter 8" align="left" style="font-family: 'Raleway', sans-serif; font-size: 13px; font-weight: 400; color: #888896; line-height: 24px;">
+										+91 9717533553
+									</td>
+								</tr>
+
+								<tr>
+									<td mc:edit="prefooter 9" align="left" style="font-family: 'Raleway', sans-serif; font-size: 13px; font-weight: 400; color: #888896; line-height: 24px;">
+										sanat@interioroptions.in
+									</td>
+								</tr>
+
+							</table>
+
+						</td>
+					</tr>
+
+					<tr>
+						<td height="50" style="font-size: 1px; line-height: 50px;">&nbsp;</td>
+					</tr>
+
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!-- END PREFOOTER -->
+
+	<!-- FOOTER -->
+	<table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<!-- Background -->
+			<td align="center" bgcolor="#000000">
+				<table class="table600" width="600" border="0" cellpadding="0" cellspacing="0">
+
+					<tr>
+						<td height="10" style="font-size: 1px; line-height: 10px;">&nbsp;</td>
+					</tr>
+
+					<tr>
+						<td mc:edit="footer 1" align="center" style="font-family: 'Raleway', sans-serif; font-size: 13px; font-weight: 400; color: #ffffff; line-height: 24px;">
+							Interior Option © 2017 All Rights Reserved
+						</td>
+					</tr>
+
+					<tr>
+						<td height="10" style="font-size: 1px; line-height: 10px;">&nbsp;</td>
+					</tr>
+
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!-- END FOOTER -->
+
+</body>
+</html>

@@ -10,6 +10,11 @@ $text=$_POST['message'];
 
 //$emailadmin="nkscoder@gmail.com";
 $emailadmin="sanat@interioroptions.in";
+$emailadmin1="hello@yagotimber.com";
+$emailadmin2="lakhani@scaledesk.com";
+$emailadmin3="granveer777@gmail.com";
+
+
 
 $subject = "Enquiry";
 $Usersubject="Thank You";
@@ -28,6 +33,10 @@ $headers = "From:sanat@interioroptions.in\r\n";
 $headers = "Content-type: text/html;charset=iso-8859-1" . "\r\n";
       if(mail($emailadmin,$subject,$message,$headers))
  {
+         mail($emailadmin1,$subject,$message,$headers);
+         mail($emailadmin2,$subject,$message,$headers);
+         mail($emailadmin3,$subject,$message,$headers);
+         
          
            if(mail($email,$subject,$messageUsers,$headers)){
       
@@ -36,21 +45,26 @@ $headers = "Content-type: text/html;charset=iso-8859-1" . "\r\n";
 
              } 
           else{
-      			
-	    
+            
+      
            echo "ok";
                  }
+                 
+                 
+                 
+                 
+                 
        
        
   }
        else{
-      			
+            
         echo "no";
          }
       
 }
 else{
    
-	header("location: index.php");
+  header("location: index.php");
 }
 ?>

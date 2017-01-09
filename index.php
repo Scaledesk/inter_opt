@@ -125,7 +125,7 @@
 																<input name="name" type="text" class="required custom-lineheight" id="name" placeholder="Full Name">
 														</div>
 														<div class="col-sm-12 commonfield uncommon">
-																<input name="email" type="text" class="required custom-lineheight" id="email" placeholder="Email Id">
+																<input name="email" type="email" class="required custom-lineheight" id="email" placeholder="Email Id">
 														</div>
 														<div class="col-sm-12 commonfield uncommon">
 																<input name="number" type="text" class="required custom-lineheight" id="phone" placeholder="Phone Number">
@@ -664,17 +664,17 @@
                         <form action="" method="post" id="footercontactForm">
                             <div class="col-sm-6 commonfield">
                                 <label for="name"><span>Name</span> (required)</label>
-                                <input name="footer_name" type="text" class="required" id="footer_name">
+                                <input name="footer_name" type="text" required class="required" id="footer_name">
 
                             </div>
                             <div class="col-sm-6 commonfield">
                                 <label for="email"><span>Email</span> (required)</label>
-                                <input name="footer_email" type="email" class="required" id="footer_email">
+                                <input name="footer_email" type="email" required class="required" id="footer_email">
 
                             </div>
                             <div class="col-sm-12 commonfield textAreaField-o">
                                 <label for="required"><span>your Message</span> (required)</label>
-                                <textarea class="required"  id="footer_message" name="footer_message"></textarea> <br>
+                                <textarea class="required"  id="footer_message" required name="footer_message"></textarea> <br>
                                 <button id="footer_submit"  type="submit">Send Message</button>
                             </div>
                         </form>
