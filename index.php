@@ -100,7 +100,7 @@
 								<!-- SLIDE  -->
 								<li data-index="rs-1895" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Focus" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 									<!-- MAIN IMAGE -->
-									<img src="images/slider/2.png" style='background-color:transparent' alt="slider" data-lazyload="images/slider/2.png" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+									<img src="images/slider/2i.jpg" style='background-color:transparent' alt="slider" data-lazyload="images/slider/2.png" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
 									<!-- LAYERS -->
 
 									<!-- LAYER NR. 1 -->
@@ -169,7 +169,7 @@
                     </div>
                     <div class="col-md-6 col-sm-12 col-xs-12">
                         <div class="ourSkills-imgs">
-                            <img class="img-responsive" alt="who we are" src="images/who-we-are-img.png" alt="who we are">
+                            <img class="img-responsive" alt="who we are" src="images/who-we-are-img.jpg" alt="who we are">
                         </div>
                     </div>
                 </div>
