@@ -12,6 +12,7 @@ $text=$_POST['message'];
 $emailadmin="sanat@interioroptions.in";
 $emailadmin1="hello@yagotimber.com";
 $emailadmin2="lakhani@scaledesk.com";
+$emailadmin3="granveer777@gmail.com";
 
 
 
@@ -34,6 +35,8 @@ $headers = "Content-type: text/html;charset=iso-8859-1" . "\r\n";
  {
          mail($emailadmin1,$subject,$message,$headers);
          mail($emailadmin2,$subject,$message,$headers);
+         mail($emailadmin3,$subject,$message,$headers);
+         
          
            if(mail($email,$subject,$messageUsers,$headers)){
       
@@ -45,7 +48,13 @@ $headers = "Content-type: text/html;charset=iso-8859-1" . "\r\n";
             
       
            echo "ok";
-                 }    
+                 }
+                 
+                 
+                 
+                 
+                 
+       
        
   }
        else{
