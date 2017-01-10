@@ -482,13 +482,13 @@ a.sliderbtnTrans {
 /Our Skills
 ======================**/
 .ourSkills-main.aright {
-	background-image: url(../images/triangle-left.png);
+/*	background-image: url(../images/triangle-left.png);*/
 	background-repeat: no-repeat;
 	background-position: top left;
 	background-size: contain;
 }
 .ourSkills-main.aleft {
-	background-image: url(../images/triangle-right.png);
+	/*background-image: url(../images/triangle-right.png);*/
 	background-repeat: no-repeat;
 	background-position: top right;
 	background-size: contain;
@@ -644,6 +644,12 @@ a.sliderbtnTrans {
    color: #000;
    font-size: 33px;
    margin-bottom: 27px;
+}
+
+.fa-icon{
+     color: #AAAAA9!important;
+    font-size: 40px !important;
+    margin-bottom: 20px !important;
 }
 .iconBox_01 h3 {
 	 color: #c28a32;
@@ -942,7 +948,7 @@ a.readmoreBtn:hover > i  {
 .footerSection .widget .address .singleAdds {
    line-height: 0.8;
    margin-bottom: 9px;
-   padding-left: 44px;
+  /* padding-left: 44px;*/
    position: relative;
 }
 .footerSection .widget .address {
@@ -1550,7 +1556,7 @@ teamThumb {
 	z-index: 0;
 	top: -125px;
 	right: 65px;
-	background-image: url(../images/triangle-left-top-right.png);
+	/*background-image: url(../images/triangle-left-top-right.png);*/
 	background-repeat: no-repeat;
 	background-position: top right;
 	background-size: contain;
@@ -2657,6 +2663,17 @@ a.blackbtn:hover {
    border-radius: 50%;
    animation: wave 2s ease  infinite;
 }
+
+
+.bg-1-strip{
+   background-color: #313131;
+
+}
+.bg-2-strip{
+   background-color: #F3F3F3;
+   
+}
+
 
 .carousel_active span:nth-child(1) i {  animation-delay: 0; }
 .carousel_active span:nth-child(2) i{  animation-delay: 100ms; }

@@ -100,7 +100,7 @@
 								<!-- SLIDE  -->
 								<li data-index="rs-1895" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Focus" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 									<!-- MAIN IMAGE -->
-									<img src="images/slider/2i.jpg" style='background-color:transparent' alt="slider" data-lazyload="images/slider/2.png" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+									<img src="images/slider/2i.jpg" style='background-color:transparent' alt="slider" data-lazyload="images/slider/2.png" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebgtriangl" data-no-retina>
 									<!-- LAYERS -->
 
 									<!-- LAYER NR. 1 -->
@@ -111,6 +111,20 @@
                                                 <i class="fa fa-table" aria-hidden="true"></i>&nbsp;1.5 Million Sq Ft <br>
                                                 <i class="fa fa-globe" aria-hidden="true"></i>&nbsp;10 States
 											</h2>
+        <!--                                     <div class="banner-strp">
+                                                <div class="row">
+                                                      <div class="col-xs-6 bg-1-strip">
+                                       <h2>12 Years &nbsp;   200 Projects</h2>
+
+                                            </div>
+
+                                                    <div class="col-xs-6 bg-2-strip">
+                                                                     <h2>1.5 Million Sq Ft &nbsp;  10 States</h2>
+
+                                            </div>
+
+                                            </div>
+                                             </div> -->
 											<p class="margin-0">“The art of Interior Design for Professionals” <br>Offering the best in design since 2004</p>
 										</div>
 									</div>
@@ -183,21 +197,24 @@
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
                         <div class="iconBox_01 text-center serv1">
-                            <img src="images/icons/s6.png" alt="Impeccable services">
+                           <!--  <img src="images/icons/s6.png" alt="Impeccable services"> -->
+                           <i class="fa fa-icon fa-cogs" aria-hidden="true"></i>
                             <h3>Impeccable Services</h3>
                             <p>We offer services that are highly commended by our patrons. Our company focuses on <b>client satisfaction </b>and our team of designers strive to meet your expectations. The entire process of creative design is carried out by commercial designers who are thoroughly experienced in the domain of commercial interior designing. </p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="350ms">
                         <div class="iconBox_01 text-center serv1">
-                            <img src="images/icons/s5.png" alt="Expertise and Experience">
+                       <!--      <img src="images/icons/s5.png" alt="Expertise and Experience"> -->
+                       <i class="fa fa-icon fa-tasks" aria-hidden="true"></i>
                             <h3>Expertise and Experience </h3>
                             <p>We bring you the designs that emanate from the collective skill and years of experience of our commercial interior designers. Our designs have been widely recognized by elite brands as well as the industry. We provide you nothing but the best to get a wow each time from our clients. </p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="400ms">
                         <div class="iconBox_01 text-center serv1">
-                            <img src="images/icons/s4.png"  alt="Versatility">
+                         <!--    <img src="images/icons/s4.png"  alt="Versatility"> -->
+                        <i class="fa fa-icon fa-list-ol" aria-hidden="true"></i>
                             <h3>Versatility </h3>
                             <p>Versatility is our core strength. Whether it is a corporate or commercial interior designing project, we redefine our approach every time to provide you with a fresh design. Our team make every effort to give your space a unique makeover with a personalized touch. </p>
                         </div>
@@ -205,14 +222,16 @@
                     <div class="clearfix"></div>
                     <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="450ms">
                         <div class="iconBox_01 text-center serv1">
-                            <img src="images/icons/s3.png" alt="Innovative & top-notch designs">
+                           <!--  <img src="images/icons/s3.png" alt="Innovative & top-notch designs"> -->
+                           <i class="fa fa-icon fa-plane" aria-hidden="true"></i>
                             <h3>Innovative &amp; top-notch designs</h3>
                             <p>Our innovation coupled with the zeal of creating top-notch designs is what makes us different. This simple motto is what keeps our clients happy and make them come back for more. </p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-duration="700ms" data-wow-delay="500ms">
                         <div class="iconBox_01 text-center serv1">
-                            <img src="images/icons/s2.png" alt="Creative &amp; passionate workforce">
+                           <!--  <img src="images/icons/s2.png" alt="Creative &amp; passionate workforce"> -->
+                           <i class="fa fa-icon fa-users" aria-hidden="true"></i>
                             <h3>Creative &amp; passionate workforce</h3>
                             <p>We have some very talented, inventive, imaginative and experienced individuals who work as a team in accordance with the requirement of the client. They have exposure of numerous successful projects and they simply excel at their work. We are ready to work for you anytime. </p>
                         </div>
@@ -736,12 +755,12 @@
                             <h3 class="widget-title">GET IN TOUCH</h3>
                             <div class="address">
                                 <div class="singleAdds">
-                                    <img src="images/message_icon.png" alt="message icon">
-                                    <a href="mailto:sanat@interioroptions.in">sanat@interioroptions.in</a>
+                               
+                                    <a href="mailto:sanat@interioroptions.in">     <i class="fa fa-envelope-o" aria-hidden="true"></i> sanat@interioroptions.in</a>
                                 </div>
                                 <div class="singleAdds">
-                                    <img src="images/phone_icon.png" alt="phone icon">
-                                    <p>+91 971753355</p>
+    
+                                    <p>  <i class="fa fa-phone-square" aria-hidden="true"></i> +91 971753355</p>
                                 </div>
                             </div>
                         </aside>
@@ -789,8 +808,9 @@
 				</div>
 
         <!-- Include All JS -->
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/jquery-ui.js"></script>
+         <script type="text/javascript" src="js/jquery.js" ></script>
+       <!--   <script type="text/javascript" src="js/jquery-ui.js"></script>-->
+     <script   src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"   integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   crossorigin="anonymous"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/owl.carousel.js"></script>
 <!--        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js" ></script>-->
