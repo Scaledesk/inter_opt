@@ -482,13 +482,13 @@ a.sliderbtnTrans {
 /Our Skills
 ======================**/
 .ourSkills-main.aright {
-/*	background-image: url(../images/triangle-left.png);*/
+	background-image: url(../images/triangle-left.png);
 	background-repeat: no-repeat;
 	background-position: top left;
 	background-size: contain;
 }
 .ourSkills-main.aleft {
-	/*background-image: url(../images/triangle-right.png);*/
+	background-image: url(../images/triangle-right.png);
 	background-repeat: no-repeat;
 	background-position: top right;
 	background-size: contain;
@@ -1557,7 +1557,7 @@ teamThumb {
 	z-index: 0;
 	top: -125px;
 	right: 65px;
-	/*background-image: url(../images/triangle-left-top-right.png);*/
+	background-image: url(../images/triangle-left-top-right.png);
 	background-repeat: no-repeat;
 	background-position: top right;
 	background-size: contain;
