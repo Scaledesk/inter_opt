@@ -823,7 +823,7 @@ a.readmoreBtn:hover > i  {
 /Footer
 ======================**/
 .footerSection {
-	background-image: url(../images/triangle-left-white.png), url(../images/bg-footer.png);
+	background-image: url(../images/triangle-left-white.png), url(../images/bg-footer.jpg);
 	background-repeat: no-repeat, no-repeat;
 	background-position: left, bottom;
 	background-size: contain, cover;
