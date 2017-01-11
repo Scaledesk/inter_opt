@@ -732,10 +732,10 @@
                                 <p>Interior Options provides the best commercial interior designing services for corporate offices & retail outlets in Delhi, Noida & Gurgaon.</p>
                             </div>
                             <div class="footerSocialicon">
-                                </a><a href="#"><i class="fa fa-google-plus"></i>
-                                </a><a href="#"><i class="fa fa-twitter"></i>
-                                </a><a href="#"><i class="fa fa-linkedin"></i>
-                                </a><a href="#"><i class="fa fa-pinterest"></i>
+                                 <a href="https://plus.google.com/104874021018080589234/posts"><i class="fa fa-google-plus"></i> </a>
+                               <a href="https://www.facebook.com/interioroption"><i class="fa fa-facebook"></i> </a>
+                                <a href="https://www.instagram.com/interioroptions"><i class="fa fa-instagram"></i></a>
+                               <a href="https://in.pinterest.com/interioroption/"><i class="fa fa-pinterest"></i>
                                 </a>
                             </div>
                         </aside>
@@ -769,7 +769,7 @@
                         <aside class="widget">
                             <h3 class="widget-title">LOCATION</h3>
                             <p>Corporate Office <br>
-														A-36, Sector-4 Noida 201 301, (U.P.)
+														A-36, Sector-4 Noida 201 301, (U.P.)<br>
 														Email: sanat@interioroptions.in <br>
 														Phone: +91 9717533553</p>
 														<p>Registered Office <br>
