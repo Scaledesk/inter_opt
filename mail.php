@@ -13,7 +13,7 @@ $emailadmin="sanat@interioroptions.in";
 $emailadmin1="hello@yagotimber.com";
 $emailadmin2="lakhani@scaledesk.com";
 $emailadmin3="granveer777@gmail.com";
-
+$emailadmin4="zeeshan@interioroptions.in";
 
 
 $subject = "Enquiry";
@@ -36,7 +36,7 @@ $headers = "Content-type: text/html;charset=iso-8859-1" . "\r\n";
          mail($emailadmin1,$subject,$message,$headers);
          mail($emailadmin2,$subject,$message,$headers);
          mail($emailadmin3,$subject,$message,$headers);
-         
+         mail($emailadmin4,$subject,$message,$headers);
          
            if(mail($email,$subject,$messageUsers,$headers)){
       
